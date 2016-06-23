@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F18CD611B7B57F10005149B /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F18CD601B7B57F10005149B /* libWeChatSDK.a */; };
+		1F2D88411BB3D5B300488727 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D88401BB3D5B300488727 /* Launch Screen.storyboard */; };
+		1F3560261BABEC7700F0B20B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3560251BABEC7700F0B20B /* libsqlite3.tbd */; };
+		1F694F661BD5D98500C75990 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F694F651BD5D98500C75990 /* StoreKit.framework */; };
+		1F7C90511B83182500AAAC20 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C8FE91B83182500AAAC20 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90521B83182500AAAC20 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C8FEC1B83182500AAAC20 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90531B83182500AAAC20 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C8FEE1B83182500AAAC20 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90541B83182500AAAC20 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C8FF01B83182500AAAC20 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90551B83182500AAAC20 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C8FF21B83182500AAAC20 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90561B83182500AAAC20 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C8FF41B83182500AAAC20 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90571B83182500AAAC20 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C8FF81B83182500AAAC20 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90581B83182500AAAC20 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C8FFA1B83182500AAAC20 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90591B83182500AAAC20 /* libBaiduMobStatForSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7C8FFE1B83182500AAAC20 /* libBaiduMobStatForSDK.a */; };
+		1F7C905A1B83182500AAAC20 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90011B83182500AAAC20 /* CDataScanner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C905B1B83182500AAAC20 /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90041B83182500AAAC20 /* CFilteringJSONSerializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C905C1B83182500AAAC20 /* CJSONDeserializer_BlocksExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90061B83182500AAAC20 /* CJSONDeserializer_BlocksExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C905D1B83182500AAAC20 /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90081B83182500AAAC20 /* CJSONSerialization.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C905E1B83182500AAAC20 /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C900A1B83182500AAAC20 /* CJSONSerializedData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C905F1B83182500AAAC20 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C900D1B83182500AAAC20 /* CDataScanner_Extensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90601B83182500AAAC20 /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C900F1B83182500AAAC20 /* NSCharacterSet_Extensions.m */; };
+		1F7C90611B83182500AAAC20 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90111B83182500AAAC20 /* NSDictionary_JSONExtensions.m */; };
+		1F7C90621B83182500AAAC20 /* NSScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90131B83182500AAAC20 /* NSScanner_Extensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90631B83182500AAAC20 /* CJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90161B83182500AAAC20 /* CJSONDataSerializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90641B83182500AAAC20 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90181B83182500AAAC20 /* CJSONDeserializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90651B83182500AAAC20 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C901A1B83182500AAAC20 /* CJSONScanner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90661B83182500AAAC20 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C901C1B83182500AAAC20 /* CJSONSerializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90671B83182500AAAC20 /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C901E1B83182500AAAC20 /* CSerializedJSONData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90681B83182500AAAC20 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90221B83182500AAAC20 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C90691B83182500AAAC20 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90241B83182500AAAC20 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F7C906A1B83182500AAAC20 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90351B83182500AAAC20 /* MKAnnotationView+WebCache.m */; };
+		1F7C906B1B83182500AAAC20 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90371B83182500AAAC20 /* NSData+ImageContentType.m */; };
+		1F7C906C1B83182500AAAC20 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90391B83182500AAAC20 /* SDImageCache.m */; };
+		1F7C906D1B83182500AAAC20 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C903B1B83182500AAAC20 /* SDWebImageCompat.m */; };
+		1F7C906E1B83182500AAAC20 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C903D1B83182500AAAC20 /* SDWebImageDecoder.m */; };
+		1F7C906F1B83182500AAAC20 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C903F1B83182500AAAC20 /* SDWebImageDownloader.m */; };
+		1F7C90701B83182500AAAC20 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90411B83182500AAAC20 /* SDWebImageDownloaderOperation.m */; };
+		1F7C90711B83182500AAAC20 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90431B83182500AAAC20 /* SDWebImageManager.m */; };
+		1F7C90721B83182500AAAC20 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90461B83182500AAAC20 /* SDWebImagePrefetcher.m */; };
+		1F7C90731B83182500AAAC20 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90481B83182500AAAC20 /* UIButton+WebCache.m */; };
+		1F7C90741B83182500AAAC20 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C904A1B83182500AAAC20 /* UIImage+GIF.m */; };
+		1F7C90751B83182500AAAC20 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C904C1B83182500AAAC20 /* UIImage+MultiFormat.m */; };
+		1F7C90761B83182500AAAC20 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C904E1B83182500AAAC20 /* UIImage+WebP.m */; };
+		1F7C90771B83182500AAAC20 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C90501B83182500AAAC20 /* UIImageView+WebCache.m */; };
+		1F989F3C1BBA70D500C6D8E4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F989F3B1BBA70D500C6D8E4 /* libz.tbd */; };
+		1FBEF1A41C32788C00A41BBC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBEF1A31C32788C00A41BBC /* Accelerate.framework */; };
+		1FEE29F11B73399600487B83 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEE29F01B73399600487B83 /* CoreTelephony.framework */; };
+		1FEE2AC01B7349C900487B83 /* BaiduWalletSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1FEE29F91B7349C900487B83 /* BaiduWalletSDKBundle.bundle */; };
+		1FEE2AC11B7349C900487B83 /* libBaiduWalletSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEE29FB1B7349C900487B83 /* libBaiduWalletSDK.a */; };
+		AC74CEBB1D13EF7400AAEAC3 /* libipaynowPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC74CEBA1D13EF7400AAEAC3 /* libipaynowPlugin.a */; };
+		ACFE00BF1D081C46007C7F81 /* ipaynow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ACFE00BE1D081C46007C7F81 /* ipaynow.bundle */; };
+		BB8E5F7519A720B1009CFCBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8E5F7419A720B1009CFCBD /* Foundation.framework */; };
+		BB8E5F7719A720B1009CFCBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8E5F7619A720B1009CFCBD /* CoreGraphics.framework */; };
+		BB8E5F7919A720B1009CFCBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8E5F7819A720B1009CFCBD /* UIKit.framework */; };
+		BB8E5F7F19A720B1009CFCBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB8E5F7D19A720B1009CFCBD /* InfoPlist.strings */; };
+		BB8E5F8119A720B1009CFCBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8E5F8019A720B1009CFCBD /* main.m */; };
+		BB8E5F8519A720B1009CFCBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8E5F8419A720B1009CFCBD /* AppDelegate.m */; };
+		BB8E5F8819A720B1009CFCBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8E5F8619A720B1009CFCBD /* Main.storyboard */; };
+		BB8E5F9019A720B1009CFCBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB8E5F8F19A720B1009CFCBD /* Images.xcassets */; };
+		BB8E5FD419A721D9009CFCBD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8E5FD319A721D9009CFCBD /* Security.framework */; };
+		BB8E5FD619A721E7009CFCBD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8E5FD519A721E7009CFCBD /* SystemConfiguration.framework */; };
+		BB8E5FD819A721F3009CFCBD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8E5FD719A721F3009CFCBD /* QuartzCore.framework */; };
+		BE245A041C91ED0B00CCB1C1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE245A031C91ED0B00CCB1C1 /* CFNetwork.framework */; };
+		BE3E62851C741C9400E6B8DB /* libUPAPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F36BCBA1C57713A00F3923A /* libUPAPayPlugin.a */; };
+		BE95ED231C91E11E00CB7018 /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE95ED211C91E11E00CB7018 /* libPaymentControl.a */; };
+		C73957D81A1F19E50009822F /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C73957D61A1F19E50009822F /* AlipaySDK.bundle */; };
+		C73957D91A1F19E50009822F /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73957D71A1F19E50009822F /* AlipaySDK.framework */; };
+		C7E7576E1A2D94F000A71C18 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E7576D1A2D94F000A71C18 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F18CD601B7B57F10005149B /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		1F2D88401BB3D5B300488727 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1F3560251BABEC7700F0B20B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1F36BCB81C57703C00F3923A /* IpayNowMarket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = IpayNowMarket.entitlements; sourceTree = "<group>"; };
+		1F36BCBA1C57713A00F3923A /* libUPAPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPAPayPlugin.a; sourceTree = "<group>"; };
+		1F36BCBB1C57713A00F3923A /* UPAPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPlugin.h; sourceTree = "<group>"; };
+		1F36BCBC1C57713A00F3923A /* UPAPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPluginDelegate.h; sourceTree = "<group>"; };
+		1F694F651BD5D98500C75990 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1F7C8FE81B83182500AAAC20 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		1F7C8FE91B83182500AAAC20 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		1F7C8FEA1B83182500AAAC20 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		1F7C8FEB1B83182500AAAC20 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		1F7C8FEC1B83182500AAAC20 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		1F7C8FED1B83182500AAAC20 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		1F7C8FEE1B83182500AAAC20 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		1F7C8FEF1B83182500AAAC20 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		1F7C8FF01B83182500AAAC20 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		1F7C8FF11B83182500AAAC20 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		1F7C8FF21B83182500AAAC20 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		1F7C8FF31B83182500AAAC20 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		1F7C8FF41B83182500AAAC20 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		1F7C8FF51B83182500AAAC20 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		1F7C8FF61B83182500AAAC20 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		1F7C8FF71B83182500AAAC20 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		1F7C8FF81B83182500AAAC20 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		1F7C8FF91B83182500AAAC20 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		1F7C8FFA1B83182500AAAC20 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		1F7C8FFB1B83182500AAAC20 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		1F7C8FFE1B83182500AAAC20 /* libBaiduMobStatForSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStatForSDK.a; sourceTree = "<group>"; };
+		1F7C90001B83182500AAAC20 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		1F7C90011B83182500AAAC20 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		1F7C90031B83182500AAAC20 /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
+		1F7C90041B83182500AAAC20 /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFilteringJSONSerializer.m; sourceTree = "<group>"; };
+		1F7C90051B83182500AAAC20 /* CJSONDeserializer_BlocksExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer_BlocksExtensions.h; sourceTree = "<group>"; };
+		1F7C90061B83182500AAAC20 /* CJSONDeserializer_BlocksExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer_BlocksExtensions.m; sourceTree = "<group>"; };
+		1F7C90071B83182500AAAC20 /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerialization.h; sourceTree = "<group>"; };
+		1F7C90081B83182500AAAC20 /* CJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerialization.m; sourceTree = "<group>"; };
+		1F7C90091B83182500AAAC20 /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializedData.h; sourceTree = "<group>"; };
+		1F7C900A1B83182500AAAC20 /* CJSONSerializedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializedData.m; sourceTree = "<group>"; };
+		1F7C900C1B83182500AAAC20 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		1F7C900D1B83182500AAAC20 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		1F7C900E1B83182500AAAC20 /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharacterSet_Extensions.h; sourceTree = "<group>"; };
+		1F7C900F1B83182500AAAC20 /* NSCharacterSet_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCharacterSet_Extensions.m; sourceTree = "<group>"; };
+		1F7C90101B83182500AAAC20 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		1F7C90111B83182500AAAC20 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		1F7C90121B83182500AAAC20 /* NSScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSScanner_Extensions.h; sourceTree = "<group>"; };
+		1F7C90131B83182500AAAC20 /* NSScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSScanner_Extensions.m; sourceTree = "<group>"; };
+		1F7C90151B83182500AAAC20 /* CJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDataSerializer.h; sourceTree = "<group>"; };
+		1F7C90161B83182500AAAC20 /* CJSONDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDataSerializer.m; sourceTree = "<group>"; };
+		1F7C90171B83182500AAAC20 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		1F7C90181B83182500AAAC20 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		1F7C90191B83182500AAAC20 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		1F7C901A1B83182500AAAC20 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		1F7C901B1B83182500AAAC20 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		1F7C901C1B83182500AAAC20 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		1F7C901D1B83182500AAAC20 /* CSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSerializedJSONData.h; sourceTree = "<group>"; };
+		1F7C901E1B83182500AAAC20 /* CSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSerializedJSONData.m; sourceTree = "<group>"; };
+		1F7C901F1B83182500AAAC20 /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
+		1F7C90211B83182500AAAC20 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		1F7C90221B83182500AAAC20 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		1F7C90231B83182500AAAC20 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1F7C90241B83182500AAAC20 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1F7C90341B83182500AAAC20 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		1F7C90351B83182500AAAC20 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		1F7C90361B83182500AAAC20 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		1F7C90371B83182500AAAC20 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		1F7C90381B83182500AAAC20 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		1F7C90391B83182500AAAC20 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		1F7C903A1B83182500AAAC20 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		1F7C903B1B83182500AAAC20 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		1F7C903C1B83182500AAAC20 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		1F7C903D1B83182500AAAC20 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		1F7C903E1B83182500AAAC20 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		1F7C903F1B83182500AAAC20 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		1F7C90401B83182500AAAC20 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		1F7C90411B83182500AAAC20 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		1F7C90421B83182500AAAC20 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		1F7C90431B83182500AAAC20 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		1F7C90441B83182500AAAC20 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		1F7C90451B83182500AAAC20 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		1F7C90461B83182500AAAC20 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		1F7C90471B83182500AAAC20 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		1F7C90481B83182500AAAC20 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		1F7C90491B83182500AAAC20 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		1F7C904A1B83182500AAAC20 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		1F7C904B1B83182500AAAC20 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		1F7C904C1B83182500AAAC20 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		1F7C904D1B83182500AAAC20 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		1F7C904E1B83182500AAAC20 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		1F7C904F1B83182500AAAC20 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		1F7C90501B83182500AAAC20 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		1F969C911B71DFE000D5FBA1 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		1F969C921B71DFE000D5FBA1 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		1F989F3B1BBA70D500C6D8E4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1FBEF1A31C32788C00A41BBC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		1FEE29F01B73399600487B83 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1FEE29F91B7349C900487B83 /* BaiduWalletSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BaiduWalletSDKBundle.bundle; sourceTree = "<group>"; };
+		1FEE29FA1B7349C900487B83 /* BDWalletSDKMainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDWalletSDKMainManager.h; sourceTree = "<group>"; };
+		1FEE29FB1B7349C900487B83 /* libBaiduWalletSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduWalletSDK.a; sourceTree = "<group>"; };
+		AC74CEBA1D13EF7400AAEAC3 /* libipaynowPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipaynowPlugin.a; sourceTree = "<group>"; };
+		ACA010121CFED0FD00DEF8C3 /* IpaynowPluginApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpaynowPluginApi.h; sourceTree = "<group>"; };
+		ACA010131CFED0FD00DEF8C3 /* IpaynowPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpaynowPluginDelegate.h; sourceTree = "<group>"; };
+		ACA010141CFED0FD00DEF8C3 /* IPNDESUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPNDESUtil.h; sourceTree = "<group>"; };
+		ACA010161CFED0FD00DEF8C3 /* IPNPreSignMessageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPNPreSignMessageUtil.h; sourceTree = "<group>"; };
+		ACFE00BE1D081C46007C7F81 /* ipaynow.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ipaynow.bundle; sourceTree = "<group>"; };
+		BB8E5F7119A720B1009CFCBD /* IpayNowMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IpayNowMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8E5F7419A720B1009CFCBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB8E5F7619A720B1009CFCBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB8E5F7819A720B1009CFCBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB8E5F7C19A720B1009CFCBD /* iPaynowPluginDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPaynowPluginDemo-Info.plist"; sourceTree = "<group>"; };
+		BB8E5F7E19A720B1009CFCBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB8E5F8019A720B1009CFCBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB8E5F8219A720B1009CFCBD /* iPaynowPluginDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPaynowPluginDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BB8E5F8319A720B1009CFCBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB8E5F8419A720B1009CFCBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB8E5F8719A720B1009CFCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB8E5F8F19A720B1009CFCBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB8E5F9619A720B1009CFCBD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB8E5FD319A721D9009CFCBD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BB8E5FD519A721E7009CFCBD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BB8E5FD719A721F3009CFCBD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE245A031C91ED0B00CCB1C1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BE95ED211C91E11E00CB7018 /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		BE95ED221C91E11E00CB7018 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		C73957D61A1F19E50009822F /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		C73957D71A1F19E50009822F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		C7E7576C1A2D94F000A71C18 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C7E7576D1A2D94F000A71C18 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB8E5F6E19A720B1009CFCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE245A041C91ED0B00CCB1C1 /* CFNetwork.framework in Frameworks */,
+				BE3E62851C741C9400E6B8DB /* libUPAPayPlugin.a in Frameworks */,
+				1FBEF1A41C32788C00A41BBC /* Accelerate.framework in Frameworks */,
+				BE95ED231C91E11E00CB7018 /* libPaymentControl.a in Frameworks */,
+				AC74CEBB1D13EF7400AAEAC3 /* libipaynowPlugin.a in Frameworks */,
+				1FEE29F11B73399600487B83 /* CoreTelephony.framework in Frameworks */,
+				1F694F661BD5D98500C75990 /* StoreKit.framework in Frameworks */,
+				1F989F3C1BBA70D500C6D8E4 /* libz.tbd in Frameworks */,
+				1F3560261BABEC7700F0B20B /* libsqlite3.tbd in Frameworks */,
+				1F7C90591B83182500AAAC20 /* libBaiduMobStatForSDK.a in Frameworks */,
+				BB8E5FD819A721F3009CFCBD /* QuartzCore.framework in Frameworks */,
+				BB8E5FD619A721E7009CFCBD /* SystemConfiguration.framework in Frameworks */,
+				BB8E5FD419A721D9009CFCBD /* Security.framework in Frameworks */,
+				BB8E5F7719A720B1009CFCBD /* CoreGraphics.framework in Frameworks */,
+				BB8E5F7919A720B1009CFCBD /* UIKit.framework in Frameworks */,
+				1FEE2AC11B7349C900487B83 /* libBaiduWalletSDK.a in Frameworks */,
+				BB8E5F7519A720B1009CFCBD /* Foundation.framework in Frameworks */,
+				C73957D91A1F19E50009822F /* AlipaySDK.framework in Frameworks */,
+				1F18CD611B7B57F10005149B /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F36BCB91C57713A00F3923A /* UPApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				1F36BCBA1C57713A00F3923A /* libUPAPayPlugin.a */,
+				1F36BCBB1C57713A00F3923A /* UPAPayPlugin.h */,
+				1F36BCBC1C57713A00F3923A /* UPAPayPluginDelegate.h */,
+			);
+			name = UPApplePay;
+			path = iPaynowPluginDemo/UPApplePay;
+			sourceTree = "<group>";
+		};
+		1F7C8FE61B83182500AAAC20 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C8FE71B83182500AAAC20 /* ASIHttpRequest */,
+				1F7C8FFC1B83182500AAAC20 /* BaiduMobStat */,
+				1F7C90201B83182500AAAC20 /* JSONKit */,
+				1F7C90251B83182500AAAC20 /* SAPI */,
+				1F7C90331B83182500AAAC20 /* SDWebImage */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		1F7C8FE71B83182500AAAC20 /* ASIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C8FE81B83182500AAAC20 /* ASIAuthenticationDialog.h */,
+				1F7C8FE91B83182500AAAC20 /* ASIAuthenticationDialog.m */,
+				1F7C8FEA1B83182500AAAC20 /* ASICacheDelegate.h */,
+				1F7C8FEB1B83182500AAAC20 /* ASIDataCompressor.h */,
+				1F7C8FEC1B83182500AAAC20 /* ASIDataCompressor.m */,
+				1F7C8FED1B83182500AAAC20 /* ASIDataDecompressor.h */,
+				1F7C8FEE1B83182500AAAC20 /* ASIDataDecompressor.m */,
+				1F7C8FEF1B83182500AAAC20 /* ASIDownloadCache.h */,
+				1F7C8FF01B83182500AAAC20 /* ASIDownloadCache.m */,
+				1F7C8FF11B83182500AAAC20 /* ASIFormDataRequest.h */,
+				1F7C8FF21B83182500AAAC20 /* ASIFormDataRequest.m */,
+				1F7C8FF31B83182500AAAC20 /* ASIHTTPRequest.h */,
+				1F7C8FF41B83182500AAAC20 /* ASIHTTPRequest.m */,
+				1F7C8FF51B83182500AAAC20 /* ASIHTTPRequestConfig.h */,
+				1F7C8FF61B83182500AAAC20 /* ASIHTTPRequestDelegate.h */,
+				1F7C8FF71B83182500AAAC20 /* ASIInputStream.h */,
+				1F7C8FF81B83182500AAAC20 /* ASIInputStream.m */,
+				1F7C8FF91B83182500AAAC20 /* ASINetworkQueue.h */,
+				1F7C8FFA1B83182500AAAC20 /* ASINetworkQueue.m */,
+				1F7C8FFB1B83182500AAAC20 /* ASIProgressDelegate.h */,
+			);
+			path = ASIHttpRequest;
+			sourceTree = "<group>";
+		};
+		1F7C8FFC1B83182500AAAC20 /* BaiduMobStat */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C8FFD1B83182500AAAC20 /* BaiduMobStat */,
+				1F7C8FFF1B83182500AAAC20 /* TouchJSON */,
+			);
+			path = BaiduMobStat;
+			sourceTree = "<group>";
+		};
+		1F7C8FFD1B83182500AAAC20 /* BaiduMobStat */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C8FFE1B83182500AAAC20 /* libBaiduMobStatForSDK.a */,
+			);
+			path = BaiduMobStat;
+			sourceTree = "<group>";
+		};
+		1F7C8FFF1B83182500AAAC20 /* TouchJSON */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C90001B83182500AAAC20 /* CDataScanner.h */,
+				1F7C90011B83182500AAAC20 /* CDataScanner.m */,
+				1F7C90021B83182500AAAC20 /* Experimental */,
+				1F7C900B1B83182500AAAC20 /* Extensions */,
+				1F7C90141B83182500AAAC20 /* JSON */,
+			);
+			path = TouchJSON;
+			sourceTree = "<group>";
+		};
+		1F7C90021B83182500AAAC20 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C90031B83182500AAAC20 /* CFilteringJSONSerializer.h */,
+				1F7C90041B83182500AAAC20 /* CFilteringJSONSerializer.m */,
+				1F7C90051B83182500AAAC20 /* CJSONDeserializer_BlocksExtensions.h */,
+				1F7C90061B83182500AAAC20 /* CJSONDeserializer_BlocksExtensions.m */,
+				1F7C90071B83182500AAAC20 /* CJSONSerialization.h */,
+				1F7C90081B83182500AAAC20 /* CJSONSerialization.m */,
+				1F7C90091B83182500AAAC20 /* CJSONSerializedData.h */,
+				1F7C900A1B83182500AAAC20 /* CJSONSerializedData.m */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		1F7C900B1B83182500AAAC20 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C900C1B83182500AAAC20 /* CDataScanner_Extensions.h */,
+				1F7C900D1B83182500AAAC20 /* CDataScanner_Extensions.m */,
+				1F7C900E1B83182500AAAC20 /* NSCharacterSet_Extensions.h */,
+				1F7C900F1B83182500AAAC20 /* NSCharacterSet_Extensions.m */,
+				1F7C90101B83182500AAAC20 /* NSDictionary_JSONExtensions.h */,
+				1F7C90111B83182500AAAC20 /* NSDictionary_JSONExtensions.m */,
+				1F7C90121B83182500AAAC20 /* NSScanner_Extensions.h */,
+				1F7C90131B83182500AAAC20 /* NSScanner_Extensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1F7C90141B83182500AAAC20 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C90151B83182500AAAC20 /* CJSONDataSerializer.h */,
+				1F7C90161B83182500AAAC20 /* CJSONDataSerializer.m */,
+				1F7C90171B83182500AAAC20 /* CJSONDeserializer.h */,
+				1F7C90181B83182500AAAC20 /* CJSONDeserializer.m */,
+				1F7C90191B83182500AAAC20 /* CJSONScanner.h */,
+				1F7C901A1B83182500AAAC20 /* CJSONScanner.m */,
+				1F7C901B1B83182500AAAC20 /* CJSONSerializer.h */,
+				1F7C901C1B83182500AAAC20 /* CJSONSerializer.m */,
+				1F7C901D1B83182500AAAC20 /* CSerializedJSONData.h */,
+				1F7C901E1B83182500AAAC20 /* CSerializedJSONData.m */,
+				1F7C901F1B83182500AAAC20 /* JSONRepresentation.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		1F7C90201B83182500AAAC20 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C90211B83182500AAAC20 /* JSONKit.h */,
+				1F7C90221B83182500AAAC20 /* JSONKit.m */,
+				1F7C90231B83182500AAAC20 /* Reachability.h */,
+				1F7C90241B83182500AAAC20 /* Reachability.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		1F7C90251B83182500AAAC20 /* SAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C90261B83182500AAAC20 /* Assets */,
+				1F7C90281B83182500AAAC20 /* lib */,
+				1F7C902B1B83182500AAAC20 /* Plugins */,
+				1F7C902C1B83182500AAAC20 /* ThirdParty */,
+				1F7C90311B83182500AAAC20 /* ViewControllers */,
+				1F7C90321B83182500AAAC20 /* www */,
+			);
+			path = SAPI;
+			sourceTree = "<group>";
+		};
+		1F7C90261B83182500AAAC20 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C90271B83182500AAAC20 /* images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1F7C90271B83182500AAAC20 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1F7C90281B83182500AAAC20 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C90291B83182500AAAC20 /* SAPI */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1F7C90291B83182500AAAC20 /* SAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C902A1B83182500AAAC20 /* Headers */,
+			);
+			path = SAPI;
+			sourceTree = "<group>";
+		};
+		1F7C902A1B83182500AAAC20 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		1F7C902B1B83182500AAAC20 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		1F7C902C1B83182500AAAC20 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C902D1B83182500AAAC20 /* HUD */,
+				1F7C902F1B83182500AAAC20 /* SinaWeibo */,
+				1F7C90301B83182500AAAC20 /* XMLDictionary */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		1F7C902D1B83182500AAAC20 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C902E1B83182500AAAC20 /* ATMHub */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		1F7C902E1B83182500AAAC20 /* ATMHub */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ATMHub;
+			sourceTree = "<group>";
+		};
+		1F7C902F1B83182500AAAC20 /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SinaWeibo;
+			sourceTree = "<group>";
+		};
+		1F7C90301B83182500AAAC20 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		1F7C90311B83182500AAAC20 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1F7C90321B83182500AAAC20 /* www */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		1F7C90331B83182500AAAC20 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C90341B83182500AAAC20 /* MKAnnotationView+WebCache.h */,
+				1F7C90351B83182500AAAC20 /* MKAnnotationView+WebCache.m */,
+				1F7C90361B83182500AAAC20 /* NSData+ImageContentType.h */,
+				1F7C90371B83182500AAAC20 /* NSData+ImageContentType.m */,
+				1F7C90381B83182500AAAC20 /* SDImageCache.h */,
+				1F7C90391B83182500AAAC20 /* SDImageCache.m */,
+				1F7C903A1B83182500AAAC20 /* SDWebImageCompat.h */,
+				1F7C903B1B83182500AAAC20 /* SDWebImageCompat.m */,
+				1F7C903C1B83182500AAAC20 /* SDWebImageDecoder.h */,
+				1F7C903D1B83182500AAAC20 /* SDWebImageDecoder.m */,
+				1F7C903E1B83182500AAAC20 /* SDWebImageDownloader.h */,
+				1F7C903F1B83182500AAAC20 /* SDWebImageDownloader.m */,
+				1F7C90401B83182500AAAC20 /* SDWebImageDownloaderOperation.h */,
+				1F7C90411B83182500AAAC20 /* SDWebImageDownloaderOperation.m */,
+				1F7C90421B83182500AAAC20 /* SDWebImageManager.h */,
+				1F7C90431B83182500AAAC20 /* SDWebImageManager.m */,
+				1F7C90441B83182500AAAC20 /* SDWebImageOperation.h */,
+				1F7C90451B83182500AAAC20 /* SDWebImagePrefetcher.h */,
+				1F7C90461B83182500AAAC20 /* SDWebImagePrefetcher.m */,
+				1F7C90471B83182500AAAC20 /* UIButton+WebCache.h */,
+				1F7C90481B83182500AAAC20 /* UIButton+WebCache.m */,
+				1F7C90491B83182500AAAC20 /* UIImage+GIF.h */,
+				1F7C904A1B83182500AAAC20 /* UIImage+GIF.m */,
+				1F7C904B1B83182500AAAC20 /* UIImage+MultiFormat.h */,
+				1F7C904C1B83182500AAAC20 /* UIImage+MultiFormat.m */,
+				1F7C904D1B83182500AAAC20 /* UIImage+WebP.h */,
+				1F7C904E1B83182500AAAC20 /* UIImage+WebP.m */,
+				1F7C904F1B83182500AAAC20 /* UIImageView+WebCache.h */,
+				1F7C90501B83182500AAAC20 /* UIImageView+WebCache.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		1F969C8F1B71DFE000D5FBA1 /* WechatPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				1F18CD601B7B57F10005149B /* libWeChatSDK.a */,
+				1F969C911B71DFE000D5FBA1 /* WXApi.h */,
+				1F969C921B71DFE000D5FBA1 /* WXApiObject.h */,
+			);
+			name = WechatPlugin;
+			path = iPaynowPluginDemo/WechatPlugin;
+			sourceTree = "<group>";
+		};
+		1FEE29F41B7349C900487B83 /* BDWalletSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1F7C8FE61B83182500AAAC20 /* Library */,
+				1FEE29F91B7349C900487B83 /* BaiduWalletSDKBundle.bundle */,
+				1FEE29FA1B7349C900487B83 /* BDWalletSDKMainManager.h */,
+				1FEE29FB1B7349C900487B83 /* libBaiduWalletSDK.a */,
+			);
+			name = BDWalletSDK;
+			path = iPaynowPluginDemo/BDWalletSDK;
+			sourceTree = "<group>";
+		};
+		ACA0100F1CFED0FD00DEF8C3 /* ipaynowPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				ACFE00BE1D081C46007C7F81 /* ipaynow.bundle */,
+				ACA010121CFED0FD00DEF8C3 /* IpaynowPluginApi.h */,
+				ACA010131CFED0FD00DEF8C3 /* IpaynowPluginDelegate.h */,
+				ACA010141CFED0FD00DEF8C3 /* IPNDESUtil.h */,
+				ACA010161CFED0FD00DEF8C3 /* IPNPreSignMessageUtil.h */,
+				AC74CEBA1D13EF7400AAEAC3 /* libipaynowPlugin.a */,
+			);
+			path = ipaynowPlugin;
+			sourceTree = "<group>";
+		};
+		BB8E5F6819A720B1009CFCBD = {
+			isa = PBXGroup;
+			children = (
+				1F36BCB81C57703C00F3923A /* IpayNowMarket.entitlements */,
+				BB8E5F7319A720B1009CFCBD /* Frameworks */,
+				BB8E5F7A19A720B1009CFCBD /* iPaynowPluginDemo */,
+				BB8E5F7219A720B1009CFCBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB8E5F7219A720B1009CFCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E5F7119A720B1009CFCBD /* IpayNowMarket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB8E5F7319A720B1009CFCBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE245A031C91ED0B00CCB1C1 /* CFNetwork.framework */,
+				BED207AF1C908008005ED68C /* UPPayPlugin */,
+				1FBEF1A31C32788C00A41BBC /* Accelerate.framework */,
+				1F694F651BD5D98500C75990 /* StoreKit.framework */,
+				1F989F3B1BBA70D500C6D8E4 /* libz.tbd */,
+				1F3560251BABEC7700F0B20B /* libsqlite3.tbd */,
+				1FEE29F41B7349C900487B83 /* BDWalletSDK */,
+				ACA0100F1CFED0FD00DEF8C3 /* ipaynowPlugin */,
+				1F969C8F1B71DFE000D5FBA1 /* WechatPlugin */,
+				1F36BCB91C57713A00F3923A /* UPApplePay */,
+				BB8E5FAC19A7212C009CFCBD /* AliPayPlugin */,
+				BB8E5F7619A720B1009CFCBD /* CoreGraphics.framework */,
+				1FEE29F01B73399600487B83 /* CoreTelephony.framework */,
+				BB8E5FD719A721F3009CFCBD /* QuartzCore.framework */,
+				BB8E5FD519A721E7009CFCBD /* SystemConfiguration.framework */,
+				BB8E5FD319A721D9009CFCBD /* Security.framework */,
+				BB8E5F7419A720B1009CFCBD /* Foundation.framework */,
+				BB8E5F7819A720B1009CFCBD /* UIKit.framework */,
+				BB8E5F9619A720B1009CFCBD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB8E5F7A19A720B1009CFCBD /* iPaynowPluginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E5F8319A720B1009CFCBD /* AppDelegate.h */,
+				BB8E5F8419A720B1009CFCBD /* AppDelegate.m */,
+				C7E7576C1A2D94F000A71C18 /* MainViewController.h */,
+				C7E7576D1A2D94F000A71C18 /* MainViewController.m */,
+				BB8E5F8619A720B1009CFCBD /* Main.storyboard */,
+				BB8E5F8F19A720B1009CFCBD /* Images.xcassets */,
+				BB8E5F7B19A720B1009CFCBD /* Supporting Files */,
+			);
+			path = iPaynowPluginDemo;
+			sourceTree = "<group>";
+		};
+		BB8E5F7B19A720B1009CFCBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E5F7C19A720B1009CFCBD /* iPaynowPluginDemo-Info.plist */,
+				BB8E5F7D19A720B1009CFCBD /* InfoPlist.strings */,
+				BB8E5F8019A720B1009CFCBD /* main.m */,
+				BB8E5F8219A720B1009CFCBD /* iPaynowPluginDemo-Prefix.pch */,
+				1F2D88401BB3D5B300488727 /* Launch Screen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB8E5FAC19A7212C009CFCBD /* AliPayPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				C73957D71A1F19E50009822F /* AlipaySDK.framework */,
+				C73957D61A1F19E50009822F /* AlipaySDK.bundle */,
+			);
+			name = AliPayPlugin;
+			path = iPaynowPluginDemo/AliPayPlugin;
+			sourceTree = "<group>";
+		};
+		BED207AF1C908008005ED68C /* UPPayPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				BE95ED211C91E11E00CB7018 /* libPaymentControl.a */,
+				BE95ED221C91E11E00CB7018 /* UPPaymentControl.h */,
+			);
+			name = UPPayPlugin;
+			path = iPaynowPluginDemo/UPPayPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB8E5F7019A720B1009CFCBD /* IpayNowMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8E5FA619A720B1009CFCBD /* Build configuration list for PBXNativeTarget "IpayNowMarket" */;
+			buildPhases = (
+				BB8E5F6D19A720B1009CFCBD /* Sources */,
+				BB8E5F6E19A720B1009CFCBD /* Frameworks */,
+				BB8E5F6F19A720B1009CFCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IpayNowMarket;
+			productName = iPaynowPluginDemo;
+			productReference = BB8E5F7119A720B1009CFCBD /* IpayNowMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB8E5F6919A720B1009CFCBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ipaynow;
+				TargetAttributes = {
+					BB8E5F7019A720B1009CFCBD = {
+						DevelopmentTeam = G46Z83B74L;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.OMC = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BB8E5F6C19A720B1009CFCBD /* Build configuration list for PBXProject "iPaynowPluginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB8E5F6819A720B1009CFCBD;
+			productRefGroup = BB8E5F7219A720B1009CFCBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB8E5F7019A720B1009CFCBD /* IpayNowMarket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB8E5F6F19A720B1009CFCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73957D81A1F19E50009822F /* AlipaySDK.bundle in Resources */,
+				BB8E5F9019A720B1009CFCBD /* Images.xcassets in Resources */,
+				BB8E5F7F19A720B1009CFCBD /* InfoPlist.strings in Resources */,
+				1FEE2AC01B7349C900487B83 /* BaiduWalletSDKBundle.bundle in Resources */,
+				ACFE00BF1D081C46007C7F81 /* ipaynow.bundle in Resources */,
+				BB8E5F8819A720B1009CFCBD /* Main.storyboard in Resources */,
+				1F2D88411BB3D5B300488727 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB8E5F6D19A720B1009CFCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7C90521B83182500AAAC20 /* ASIDataCompressor.m in Sources */,
+				C7E7576E1A2D94F000A71C18 /* MainViewController.m in Sources */,
+				1F7C905F1B83182500AAAC20 /* CDataScanner_Extensions.m in Sources */,
+				1F7C90661B83182500AAAC20 /* CJSONSerializer.m in Sources */,
+				1F7C90561B83182500AAAC20 /* ASIHTTPRequest.m in Sources */,
+				1F7C90631B83182500AAAC20 /* CJSONDataSerializer.m in Sources */,
+				1F7C90681B83182500AAAC20 /* JSONKit.m in Sources */,
+				1F7C905E1B83182500AAAC20 /* CJSONSerializedData.m in Sources */,
+				1F7C90701B83182500AAAC20 /* SDWebImageDownloaderOperation.m in Sources */,
+				1F7C90721B83182500AAAC20 /* SDWebImagePrefetcher.m in Sources */,
+				1F7C90511B83182500AAAC20 /* ASIAuthenticationDialog.m in Sources */,
+				1F7C90611B83182500AAAC20 /* NSDictionary_JSONExtensions.m in Sources */,
+				1F7C905B1B83182500AAAC20 /* CFilteringJSONSerializer.m in Sources */,
+				1F7C90751B83182500AAAC20 /* UIImage+MultiFormat.m in Sources */,
+				1F7C90551B83182500AAAC20 /* ASIFormDataRequest.m in Sources */,
+				BB8E5F8519A720B1009CFCBD /* AppDelegate.m in Sources */,
+				1F7C90731B83182500AAAC20 /* UIButton+WebCache.m in Sources */,
+				1F7C90741B83182500AAAC20 /* UIImage+GIF.m in Sources */,
+				1F7C90571B83182500AAAC20 /* ASIInputStream.m in Sources */,
+				1F7C90651B83182500AAAC20 /* CJSONScanner.m in Sources */,
+				1F7C90671B83182500AAAC20 /* CSerializedJSONData.m in Sources */,
+				1F7C90621B83182500AAAC20 /* NSScanner_Extensions.m in Sources */,
+				BB8E5F8119A720B1009CFCBD /* main.m in Sources */,
+				1F7C905D1B83182500AAAC20 /* CJSONSerialization.m in Sources */,
+				1F7C906C1B83182500AAAC20 /* SDImageCache.m in Sources */,
+				1F7C905A1B83182500AAAC20 /* CDataScanner.m in Sources */,
+				1F7C90711B83182500AAAC20 /* SDWebImageManager.m in Sources */,
+				1F7C90761B83182500AAAC20 /* UIImage+WebP.m in Sources */,
+				1F7C90581B83182500AAAC20 /* ASINetworkQueue.m in Sources */,
+				1F7C90771B83182500AAAC20 /* UIImageView+WebCache.m in Sources */,
+				1F7C90531B83182500AAAC20 /* ASIDataDecompressor.m in Sources */,
+				1F7C90641B83182500AAAC20 /* CJSONDeserializer.m in Sources */,
+				1F7C905C1B83182500AAAC20 /* CJSONDeserializer_BlocksExtensions.m in Sources */,
+				1F7C906F1B83182500AAAC20 /* SDWebImageDownloader.m in Sources */,
+				1F7C90541B83182500AAAC20 /* ASIDownloadCache.m in Sources */,
+				1F7C906A1B83182500AAAC20 /* MKAnnotationView+WebCache.m in Sources */,
+				1F7C90691B83182500AAAC20 /* Reachability.m in Sources */,
+				1F7C906E1B83182500AAAC20 /* SDWebImageDecoder.m in Sources */,
+				1F7C906D1B83182500AAAC20 /* SDWebImageCompat.m in Sources */,
+				1F7C906B1B83182500AAAC20 /* NSData+ImageContentType.m in Sources */,
+				1F7C90601B83182500AAAC20 /* NSCharacterSet_Extensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB8E5F7D19A720B1009CFCBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8E5F7E19A720B1009CFCBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB8E5F8619A720B1009CFCBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8E5F8719A720B1009CFCBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB8E5FA419A720B1009CFCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB8E5FA519A720B1009CFCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB8E5FA719A720B1009CFCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = IpayNowMarket.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/AliPayPlugin",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPaynowPluginDemo/iPaynowPluginDemo-Prefix.pch";
+				INFOPLIST_FILE = "iPaynowPluginDemo/iPaynowPluginDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/AliPayPlugin",
+					"/Users/liuning1/Desktop/新版1.3.0/TestPlugin/TestPlugin/WechatPlugin",
+					"/Users/liuning1/Desktop/新版1.4.0/TestPlugin/TestPlugin/WechatPlugin",
+					"/Users/liuning1/Desktop/新版1.4.0/libipaynowPlugin/libipaynowPlugin/WechatPlugin",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/WechatPlugin",
+					"$(PROJECT_DIR)/BDWalletSDK",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/BaiduMobStat/BaiduMobStat",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/BDWalletSDK",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/Library/BaiduMobStat/BaiduMobStat",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/BDWalletSDK/Library/BaiduMobStat/BaiduMobStat",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/UPPayPlugin",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/UPApplePay",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/UPApplePay/IpaynowPlugin",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/WechatPlugin/IpaynowPlugin",
+					"$(PROJECT_DIR)/IpaynowPlugin",
+					"$(PROJECT_DIR)/ipaynowPlugin",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ipaynow.IpayNowMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB8E5FA819A720B1009CFCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = IpayNowMarket.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/AliPayPlugin",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPaynowPluginDemo/iPaynowPluginDemo-Prefix.pch";
+				INFOPLIST_FILE = "iPaynowPluginDemo/iPaynowPluginDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/AliPayPlugin",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/IpaynowPlugin",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/UPPayPlugin",
+					"/Users/liuning1/Desktop/新版1.3.0/TestPlugin/TestPlugin/WechatPlugin",
+					"/Users/liuning1/Desktop/新版1.4.0/TestPlugin/TestPlugin/WechatPlugin",
+					"/Users/liuning1/Desktop/新版1.4.0/libipaynowPlugin/libipaynowPlugin/WechatPlugin",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/WechatPlugin",
+					"$(PROJECT_DIR)/BDWalletSDK",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/BaiduMobStat/BaiduMobStat",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/BDWalletSDK",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/Library/BaiduMobStat/BaiduMobStat",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/BDWalletSDK/Library/BaiduMobStat/BaiduMobStat",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/UPApplePay",
+					"$(PROJECT_DIR)/IpaynowPlugin",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/UPApplePay/IpaynowPlugin",
+					"$(PROJECT_DIR)/iPaynowPluginDemo/WechatPlugin/IpaynowPlugin",
+					"$(PROJECT_DIR)/ipaynowPlugin",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ipaynow.IpayNowMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB8E5F6C19A720B1009CFCBD /* Build configuration list for PBXProject "iPaynowPluginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8E5FA419A720B1009CFCBD /* Debug */,
+				BB8E5FA519A720B1009CFCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8E5FA619A720B1009CFCBD /* Build configuration list for PBXNativeTarget "IpayNowMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8E5FA719A720B1009CFCBD /* Debug */,
+				BB8E5FA819A720B1009CFCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB8E5F6919A720B1009CFCBD /* Project object */;
+}
