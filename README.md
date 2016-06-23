@@ -65,7 +65,9 @@ libBaiduWalletSDK.a
 
 ```
 ASIHttpRequest
-
+JSONKit
+TouchJSON
+Reachability
 ```
 
 
