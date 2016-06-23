@@ -1,4 +1,4 @@
-# iPaynow-iOS\_SDK
+# iPaynow-iOS\_SDK:聚合支付
 ## 版本要求
 iOS SDK要求iOS6.0及以上
 ## 接入方法
