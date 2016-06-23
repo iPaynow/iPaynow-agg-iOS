@@ -54,7 +54,9 @@ libPaymentControl.a
 UPPaymentControl.h
 ```
 
-#####4.百度插件包及其依赖三方库(开通百度钱包渠道可选):
+#####4.百度钱包
+
+添加百度钱包插件包及其依赖三方库(开通百度钱包渠道可选):
 
 ```
 BaiduWalletSDKBundl.bundle
@@ -73,12 +75,18 @@ SDWebImage
 添加三方库文件时，需要根据当前`ARC`项目对非`ARC`的第三方文件设置特定标志，在`Build Phases`对这些文件添加`-fno-objc-arc`。
 
 #####5.Apple Pay
-接入Apple Pay需要配置几个地方。
+接入Apple Pay需要配置几处:
+
 1、升级Xcode版本到7.2或者以上，iOS SDK版本为9.2及以上；
+
 2、iPhone要求iPhone 6/6+,系统版本是iOS9.2及以上；
+
 3、申请苹果商户ID(Merchant IDs)
+
 4、App ID增加Apple Pay Service;
+
 5、添加依赖包到App的工程中:
+
 ```
 libUPAPayPlugin.a
 UPAPayPlugin.h
