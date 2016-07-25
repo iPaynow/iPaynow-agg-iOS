@@ -2,6 +2,44 @@
 ## 版本要求
 iOS SDK要求iOS6.0及以上
 ## 接入方法
+### 自动接入(CocoaPod方式)
+####1.添加Podfile文件
+```
+pod ‘ipaynowplugin’,'~> 1.7.4'
+
+```
+默认支持QQ钱包、微信H5渠道，也可以根据自己的需求选择渠道：
+
+`Alipay`           --支付宝
+
+`ApplePay`         --Applepay
+
+`BaiduWallet`      --百度钱包
+
+`Unionpay`         --银联
+
+`Weixin`           --微信SDK
+
+接入方式如下：
+
+```
+pod 'ipaynowplugin/Alipay’,’~> 1.7.4’
+pod 'ipaynowplugin/Weixin’,’~> 1.7.4’
+pod 'ipaynowplugin/Unionpay’,’~> 1.7.4’
+pod 'ipaynowplugin/BaiduWallet’,’~> 1.7.4’
+pod 'ipaynowplugin/ApplePay’,’~> 1.7.4’
+```
+
+####2.运行 `pod install`
+####3.使用 `.xcworkspace`打开工程
+####4.设置URL Scheme
+在`Xcode`-`TAEGETS`-`Info`-`URL Types`中添加`URL Schemes`,建议起名复杂一些，避免与其它程序重复。
+####5.注意事项
+1.) 使用微信SDK支付时，应该填写所注册的微信应用程序ID。
+
+2.) 使用百度钱包支付渠道时，需要额外在工程中将`Xcode`-`TARGETS`-`Build Settings`-`Build Options`-`Enable Bitcode`选项设置为`NO`.
+
+
 ### 手动接入
 ####1.获取SDK 
 下载SDK，将获取到的SDK拖入project中。
