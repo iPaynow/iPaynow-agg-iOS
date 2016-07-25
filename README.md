@@ -6,7 +6,6 @@ iOS SDK要求iOS6.0及以上
 ####1.添加Podfile文件
 ```
 pod ‘ipaynowplugin’,'~> 1.7.4'
-
 ```
 默认支持QQ钱包、微信H5渠道，也可以根据自己的需求选择渠道：
 
