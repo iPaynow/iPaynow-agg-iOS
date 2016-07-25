@@ -1,0 +1,1 @@
+../../../ipaynowplugin/lib/IpaynowPluginDelegate.h

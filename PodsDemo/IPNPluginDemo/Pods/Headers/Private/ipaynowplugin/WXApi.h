@@ -1,0 +1,1 @@
+../../../ipaynowplugin/lib/Channels/WechatPlugin/WXApi.h

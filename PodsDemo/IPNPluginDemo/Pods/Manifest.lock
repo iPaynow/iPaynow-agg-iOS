@@ -1,0 +1,29 @@
+PODS:
+  - ipaynowplugin (1.7.4):
+    - ipaynowplugin/Core (= 1.7.4)
+  - ipaynowplugin/Alipay (1.7.4):
+    - ipaynowplugin/Core
+  - ipaynowplugin/ApplePay (1.7.4):
+    - ipaynowplugin/Core
+  - ipaynowplugin/BaiduWallet (1.7.4):
+    - ipaynowplugin/Core
+  - ipaynowplugin/Core (1.7.4)
+  - ipaynowplugin/Unionpay (1.7.4):
+    - ipaynowplugin/Core
+  - ipaynowplugin/Weixin (1.7.4):
+    - ipaynowplugin/Core
+
+DEPENDENCIES:
+  - ipaynowplugin (~> 1.7.4)
+  - ipaynowplugin/Alipay (~> 1.7.4)
+  - ipaynowplugin/ApplePay (~> 1.7.4)
+  - ipaynowplugin/BaiduWallet (~> 1.7.4)
+  - ipaynowplugin/Unionpay (~> 1.7.4)
+  - ipaynowplugin/Weixin (~> 1.7.4)
+
+SPEC CHECKSUMS:
+  ipaynowplugin: 30b441147136d56fa500db54c3d13b129500a323
+
+PODFILE CHECKSUM: 7800fd2ece870cc6919354307457a6a0d4b63f78
+
+COCOAPODS: 1.0.1

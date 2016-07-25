@@ -1,0 +1,1 @@
+../../../ipaynowplugin/lib/Channels/BDWalletSDK/Library/JSONKit/JSONKit.h
