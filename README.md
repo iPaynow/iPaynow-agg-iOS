@@ -2,7 +2,7 @@
 ## 版本要求
 iOS SDK要求iOS6.0及以上
 ## 接入方法
-### 自动接入(CocoaPod方式)
+### 自动接入(CocoaPod方式)-暂只支持2.0之前版本，2.0版本请使用手动接入
 ####1.添加Podfile文件
 ```
 pod ‘ipaynowplugin’,'~> 1.7.4'

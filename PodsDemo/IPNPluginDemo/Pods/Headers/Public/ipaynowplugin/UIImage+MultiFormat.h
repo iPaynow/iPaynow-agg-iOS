@@ -1,1 +1,0 @@
-../../../ipaynowplugin/lib/Channels/BDWalletSDK/Library/SDWebImage/UIImage+MultiFormat.h
