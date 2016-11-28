@@ -1,1 +1,0 @@
-../../../../ipaynowplugin/lib/Channels/AliPayPlugin/AlipaySDK.framework/Headers/AlipaySDK.h

@@ -1,9 +1,0 @@
-platform:ios,'6.0'
-target :IPNPluginDemo do
-pod 'ipaynowplugin’,’~> 1.7.4’
-pod 'ipaynowplugin/Alipay’,’~> 1.7.4’
-pod 'ipaynowplugin/Weixin’,’~> 1.7.4’
-pod 'ipaynowplugin/Unionpay’,’~> 1.7.4’
-pod 'ipaynowplugin/BaiduWallet’,’~> 1.7.4’
-pod 'ipaynowplugin/ApplePay’,’~> 1.7.4’
-end

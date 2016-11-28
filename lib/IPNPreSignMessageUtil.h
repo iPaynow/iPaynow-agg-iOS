@@ -47,7 +47,7 @@
 
 
 /**
- *  订单详情
+ *  订单详情(非必填)
  */
 @property (nonatomic,strong) NSString *mhtOrderDetail;
 
@@ -65,13 +65,22 @@
 
 
 /**
- *  交易字符编码
+ *  交易字符编码(非必填)
  */
 @property (nonatomic,strong) NSString *mhtCharset;
 
 
+/**
+ 商户在现在支付商户系统的ID(非必填)
+ */
 @property (nonatomic,strong) NSString *consumerId;
+
+
+/**
+ 商户在现在支付商户系统的名称(非必填)
+ */
 @property (nonatomic,strong) NSString *consumerName;
+
 
 /**
  *  订单超时时间
@@ -80,15 +89,31 @@
 
 
 /**
- *  商户保留域（给商户使用的字段，商户可以对交易进行标记，现在支付将原样返回）
+ *  商户保留域（给商户使用的字段，商户可以对交易进行标记，现在支付将原样返回，非必填）
  */
 @property (nonatomic,strong) NSString *mhtReserved;
 
 
 /**
- *  用户所选渠道类型
+ *  商户所选渠道类型
  */
 @property (nonatomic,strong) NSString *payChannelType;
+
+
+/**
+ 商户在微信或者支付宝的appId(非必填)
+ */
+@property (nonatomic,strong) NSString *mhtSubAppId;
+
+
+/**
+ 指定不能使用信用卡支付(若填只能为"no_credit",非必填)
+ */
+@property (nonatomic,strong) NSString *mhtLimitPay;
+
+
+
+
 
 
 /**

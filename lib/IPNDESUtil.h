@@ -29,7 +29,7 @@
  *
  *  @return 加密后字符串
  */
-+ (NSString *)TripleDESEncrypt:(NSString *)plainText WithKey:(NSString *)keyStr;
++ (NSString *)tripleDESEncrypt:(NSString *)plainText WithKey:(NSString *)keyStr;
 
 
 /**
