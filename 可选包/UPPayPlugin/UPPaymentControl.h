@@ -34,9 +34,10 @@ typedef void (^UPPaymentResultBlock)(NSString* code, NSDictionary* data);
  *  @param viewController 启动支付控件的viewController
  *  @return 返回成功失败
  */
-
-
-- (BOOL)startPay:(NSString*)tn fromScheme:(NSString *)schemeStr mode:(NSString*)mode viewController:(UIViewController*)viewController;
+- (BOOL)startPay:(NSString*)tn
+      fromScheme:(NSString *)schemeStr
+            mode:(NSString*)mode
+  viewController:(UIViewController*)viewController;
 
 
 
