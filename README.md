@@ -2,10 +2,10 @@
 ## 版本要求
 iOS SDK要求iOS6.0及以上
 ## 接入方法
-### 自动接入(CocoaPod方式)-暂只支持2.0之前版本，2.0版本请使用手动接入
+### 自动接入(CocoaPod方式)
 ####1.添加Podfile文件
 ```
-pod ‘ipaynowplugin’,'~> 1.7.4'
+pod ‘ipaynowplugin’,'~> 2.0.1'
 ```
 默认支持QQ钱包、微信H5渠道，也可以根据自己的需求选择渠道：
 
@@ -22,12 +22,15 @@ pod ‘ipaynowplugin’,'~> 1.7.4'
 接入方式如下：
 
 ```
-pod 'ipaynowplugin/Alipay’,’~> 1.7.4’
-pod 'ipaynowplugin/Weixin’,’~> 1.7.4’
-pod 'ipaynowplugin/Unionpay’,’~> 1.7.4’
-pod 'ipaynowplugin/BaiduWallet’,’~> 1.7.4’
-pod 'ipaynowplugin/ApplePay’,’~> 1.7.4’
+pod 'ipaynowplugin/Alipay’,’~> 2.0.1’
+pod 'ipaynowplugin/Weixin’,’~> 2.0.1’
+pod 'ipaynowplugin/Unionpay’,’~> 2.0.1’
+pod 'ipaynowplugin/BaiduWallet’,’~> 2.0.1’
+pod 'ipaynowplugin/ApplePay’,’~> 2.0.1’
 ```
+
+**注意：若商户支付宝使用的是独立商户号模式(直接使用商户从支付宝处申请的APP
+ID和密钥),无法使用聚合支付2.X版本，请接入1.x版本。**
 
 ####2.运行 `pod install`
 ####3.使用 `.xcworkspace`打开工程
