@@ -1,0 +1,70 @@
+{
+    "ret": 0,
+    "msg": "OK",
+    "content": {
+        "unlogin_data": {
+            "wallet_interface": {
+                "title": {
+                    "name": "百度钱包",
+                    "logo": "http://co.baifubao.com/content/mywallet/ios/home/icon_bank_2x.png",
+                    "value": "常年返现1% 最高免单",
+                    "advert_logo": "http://co.baifubao.com/content/mywallet/ios/home/icon_safe_2x.png",
+                    "type": "3",
+                    "link_addr": "100"
+                },
+                "list": [
+                    {
+                        "name": "余额",
+                        "logo": "http://co.baifubao.com/content/mywallet/ios/home/icon_yue_2x.png",
+                        "type": "3",
+                        "link_addr": "101",
+                        "corner_addr": "",
+                        "start_time": "2015-01-01 00:00:00",
+                        "end_time": "2015-01-01 00:00:00",
+                        "key": "balance",
+                        "value": "0",
+                        "new_time": "123456789"
+                    },
+                    {
+                        "name": "累计返现",
+                        "key": "cashback",
+                        "logo": "http://co.baifubao.com/content/mywallet/ios/home/icon_yue_2x.png",
+                        "type": "3",
+                        "link_addr": "107",
+                        "corner_addr": "",
+                        "start_time": "2015-06-17 14:40:11",
+                        "end_time": "2015-07-04 15:50:11",
+                        "value": "0",
+                        "new_time": "123456789"
+                    },
+                    {
+                        "name": "银行卡",
+                        "logo": "http://co.baifubao.com/content/mywallet/ios/home/icon_jiaoyi_2x.png",
+                        "type": "3",
+                        "link_addr": "105",
+                        "corner_addr": "",
+                        "start_time": "2015-01-01 00:00:00",
+                        "end_time": "2015-01-01 00:00:00",
+                        "key": "bankcard",
+                        "value": "0",
+                        "new_time": "123456789"
+                    }
+                ]
+            },
+            "wallet_banner": [
+                {
+                    "name": "百度钱包返现1%起",
+                    "pic_addr": "http://co.baifubao.com/content/mywallet/ios/home/SDK_life_banner_android_1209_0118.jpg",
+                    "type": "1",
+                    "link_addr": "http://qianbao.baidu.com/hd/cnfanxian?jhchannel=qbbanner"
+                },
+                {
+                    "name": "百度钱包返现1%起",
+                    "pic_addr": "http://co.baifubao.com/content/mywallet/ios/home/SDK_life_banner_android_1209_0118.jpg",
+                    "type": "1",
+                    "link_addr": "http://qianbao.baidu.com/hd/cnfanxian?jhchannel=qbbanner"
+                }
+            ]
+        }
+    }
+}
