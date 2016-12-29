@@ -1,5 +1,10 @@
 重要！
 
+SDK2.0.2
+   -更新Applepay支持苹果ATS标准，添加隐藏loading页面的方法；
+   -更新百度钱包SDK，满足ATS标准；
+   -更新微信支付SDK，满足ATS标准。
+
 SDK2.0.1
    -更新银联SDK，支持苹果ATS标准。
 

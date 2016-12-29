@@ -21,8 +21,8 @@ typedef NS_ENUM(NSInteger, IPNPayResult) {
  *  支付完成回调接收
  *
  *  @param result  支付状态
- *  @param errCode 错误代码
- *  @param errInfo 错误信息
+ *  @param errorCode 错误码
+ *  @param errorInfo 错误信息
  */
 - (void)iPaynowPluginResult:(IPNPayResult)result errorCode:(NSString *)errorCode errorInfo:(NSString *)errorInfo;
 

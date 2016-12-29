@@ -1,13 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 174
-/app/ecom/pay/!svn/ver/418963/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle
-END
-baidu_wallet_home_corner_white@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 212
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_home_corner_white@3x.png
+/app/ecom/pay/!svn/ver/429866/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle
 END
 baidu_wallet_guohui@3x.png
 K 25
@@ -21,11 +15,23 @@ svn:wc:ra_dav:version-url
 V 205
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_privacy_bg@2x.png
 END
+baidu_wallet_home_corner_white@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_home_corner_white@3x.png
+END
 baidu_wallet_realname_attestation@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 215
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_realname_attestation@3x.png
+END
+baidu_wallet_refresh_default@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_refresh_default@3x.png
 END
 baidu_wallet_red_border@2x.png
 K 25
@@ -39,12 +45,6 @@ svn:wc:ra_dav:version-url
 V 207
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_add_bank@3x.png
 END
-baidu_wallet_refresh_default@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 210
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_refresh_default@3x.png
-END
 baidu_wallet_new_slide_arrows@3x.png
 K 25
 svn:wc:ra_dav:version-url
@@ -57,29 +57,23 @@ svn:wc:ra_dav:version-url
 V 223
 /app/ecom/pay/!svn/ver/414690/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_mobile_yingxiao_icon_default@3x.png
 END
-BaiduWallet_SpeaRecogOval@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 207
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_SpeaRecogOval@3x.png
-END
 baidu_wallet_home_card_bg@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 207
 /app/ecom/pay/!svn/ver/415434/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_home_card_bg@3x.png
 END
+BaiduWallet_SpeaRecogOval@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 207
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_SpeaRecogOval@3x.png
+END
 coupon_bank_tip_bg@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 200
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/coupon_bank_tip_bg@3x.png
-END
-BaiduWallet_SpeaRecogRecordmic@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 212
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_SpeaRecogRecordmic@3x.png
 END
 bg_default_tips_370x80@2x.png
 K 25
@@ -93,17 +87,23 @@ svn:wc:ra_dav:version-url
 V 208
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_refresh_focus@3x.png
 END
-icon_default_safe@2x.png
+BaiduWallet_SpeaRecogRecordmic@3x.png
 K 25
 svn:wc:ra_dav:version-url
-V 199
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/icon_default_safe@2x.png
+V 212
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_SpeaRecogRecordmic@3x.png
 END
 baidu_wallet_bsc@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 198
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_bsc@3x.png
+END
+icon_default_safe@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 199
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/icon_default_safe@2x.png
 END
 baidu_wallet_pop@3x.png
 K 25
@@ -141,17 +141,17 @@ svn:wc:ra_dav:version-url
 V 210
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_slidebox_bg@3x.png
 END
-baidu_wallet_new_add_bank_hl@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 210
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_add_bank_hl@3x.png
-END
 baidu_wallet_trade_detail_topbg@2x.png
 K 25
 svn:wc:ra_dav:version-url
 V 213
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_trade_detail_topbg@2x.png
+END
+baidu_wallet_new_add_bank_hl@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_add_bank_hl@3x.png
 END
 BaiduWallet_idFrame@3x.png
 K 25
@@ -171,17 +171,17 @@ svn:wc:ra_dav:version-url
 V 225
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_securityKeyboard_delete_normal@3x.png
 END
-baidu_wallet_icon_find_down@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 209
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_icon_find_down@3x.png
-END
 eventConfig.plist
 K 25
 svn:wc:ra_dav:version-url
 V 192
 /app/ecom/pay/!svn/ver/418963/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/eventConfig.plist
+END
+baidu_wallet_icon_find_down@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_icon_find_down@3x.png
 END
 baidu_wallet_new_radio_select@3x.png
 K 25
@@ -201,29 +201,29 @@ svn:wc:ra_dav:version-url
 V 205
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/coupon_section_title_bg@3x.png
 END
-baidu_wallet_pic_attestation_succeed@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 218
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_pic_attestation_succeed@3x.png
-END
 baidu_wallet_transfer_phone@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 209
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_transfer_phone@3x.png
 END
-baidu_wallet_home_mytrade@3x.png
+baidu_wallet_pic_attestation_succeed@3x.png
 K 25
 svn:wc:ra_dav:version-url
-V 207
-/app/ecom/pay/!svn/ver/415434/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_home_mytrade@3x.png
+V 218
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_pic_attestation_succeed@3x.png
 END
 baidu_wallet_mobile_recharge_network_error@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 224
 /app/ecom/pay/!svn/ver/411330/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_mobile_recharge_network_error@3x.png
+END
+baidu_wallet_home_mytrade@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 207
+/app/ecom/pay/!svn/ver/415434/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_home_mytrade@3x.png
 END
 baidu_wallet_new_record_small@3x.png
 K 25
@@ -249,17 +249,17 @@ svn:wc:ra_dav:version-url
 V 205
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_csb_normal@3x.png
 END
-BaiduWallet_SpeaRecogRecord@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 209
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_SpeaRecogRecord@3x.png
-END
 baidu_wallet_bsc_nav_back_press@2x.png
 K 25
 svn:wc:ra_dav:version-url
 V 213
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_bsc_nav_back_press@2x.png
+END
+BaiduWallet_SpeaRecogRecord@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_SpeaRecogRecord@3x.png
 END
 bd_wallet_bank_default_icon.png
 K 25
@@ -267,17 +267,17 @@ svn:wc:ra_dav:version-url
 V 206
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/bd_wallet_bank_default_icon.png
 END
-baidu_wallet_zhe_default_bottom@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 213
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_zhe_default_bottom@3x.png
-END
 bdwallet_new_bindcard_bg@2x.png
 K 25
 svn:wc:ra_dav:version-url
 V 206
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/bdwallet_new_bindcard_bg@2x.png
+END
+baidu_wallet_zhe_default_bottom@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_zhe_default_bottom@3x.png
 END
 coupon_icon_phone_nor@2x.png
 K 25
@@ -291,17 +291,17 @@ svn:wc:ra_dav:version-url
 V 217
 /app/ecom/pay/!svn/ver/411330/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_mobile_recharge_corner@3x.png
 END
-bd_wallet_icon_focus_info@2x.png
-K 25
-svn:wc:ra_dav:version-url
-V 207
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/bd_wallet_icon_focus_info@2x.png
-END
 baidu_wallet_icon_info@2x.png
 K 25
 svn:wc:ra_dav:version-url
 V 204
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_icon_info@2x.png
+END
+bd_wallet_icon_focus_info@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 207
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/bd_wallet_icon_focus_info@2x.png
 END
 bwa_bad_net@2x.png
 K 25
@@ -345,17 +345,17 @@ svn:wc:ra_dav:version-url
 V 202
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_IconDefault.png
 END
-baidu_wallet_transfer_person@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 210
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_transfer_person@3x.png
-END
 baidu_wallet_securityKeyboard_number_normal@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 225
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_securityKeyboard_number_normal@3x.png
+END
+baidu_wallet_transfer_person@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_transfer_person@3x.png
 END
 baidu_wallet_new_coupon@3x.png
 K 25
@@ -405,17 +405,17 @@ svn:wc:ra_dav:version-url
 V 190
 /app/ecom/pay/!svn/ver/413655/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BDChannel.plist
 END
-baidu_wallet_pic_auth_result@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 210
-/app/ecom/pay/!svn/ver/412423/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_pic_auth_result@3x.png
-END
 baidu_wallet_securityKeyboard_shouqi_highlighted@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 230
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_securityKeyboard_shouqi_highlighted@3x.png
+END
+baidu_wallet_pic_auth_result@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/app/ecom/pay/!svn/ver/412423/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_pic_auth_result@3x.png
 END
 baidu_main_icon_default@2x.png
 K 25
@@ -429,17 +429,17 @@ svn:wc:ra_dav:version-url
 V 207
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_result_right@3x.png
 END
-baidu_wallet_pic_attestation_default@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 218
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_pic_attestation_default@3x.png
-END
 baidu_wallet_mobile_recharge_payresult_sucess@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 227
 /app/ecom/pay/!svn/ver/411330/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_mobile_recharge_payresult_sucess@3x.png
+END
+baidu_wallet_pic_attestation_default@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_pic_attestation_default@3x.png
 END
 baidu_wallet_refresh@3x.png
 K 25
@@ -459,17 +459,17 @@ svn:wc:ra_dav:version-url
 V 214
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_logo_disable_bottom@3x.png
 END
-baidu_wallet_pop_background2@2x.png
-K 25
-svn:wc:ra_dav:version-url
-V 210
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_pop_background2@2x.png
-END
 baidu_wallet_arrow_homepage_up@2x.png
 K 25
 svn:wc:ra_dav:version-url
 V 212
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_arrow_homepage_up@2x.png
+END
+baidu_wallet_pop_background2@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_pop_background2@2x.png
 END
 BDWalletJavascript.js
 K 25
@@ -487,7 +487,7 @@ baidu_wallet_more_normal@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 206
-/app/ecom/pay/!svn/ver/415434/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_more_normal@3x.png
+/app/ecom/pay/!svn/ver/429866/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_more_normal@3x.png
 END
 baidu_wallet_recharge_default_Img@3x.png
 K 25
@@ -567,17 +567,17 @@ svn:wc:ra_dav:version-url
 V 205
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_bsc_normal@3x.png
 END
-baidu_wallet_scan_zoom_add@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 208
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_scan_zoom_add@3x.png
-END
 bdwallet_new_bindcard_hint@2x.png
 K 25
 svn:wc:ra_dav:version-url
 V 208
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/bdwallet_new_bindcard_hint@2x.png
+END
+baidu_wallet_scan_zoom_add@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 208
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_scan_zoom_add@3x.png
 END
 btn_default_setting_166x62.png
 K 25
@@ -609,6 +609,12 @@ svn:wc:ra_dav:version-url
 V 208
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_shutter_press@3x.png
 END
+baidu_wallet_home_backgroud@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_home_backgroud@3x.png
+END
 baidu_wallet_switch_camera@3x.png
 K 25
 svn:wc:ra_dav:version-url
@@ -621,23 +627,17 @@ svn:wc:ra_dav:version-url
 V 206
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/title_iconbtn_more_popbg@2x.png
 END
-baidu_wallet_home_backgroud@3x.png
+baidu_wallet_yuan_icon@3x.png
 K 25
 svn:wc:ra_dav:version-url
-V 209
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_home_backgroud@3x.png
+V 204
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_yuan_icon@3x.png
 END
 baidu_wallet_flag@2x.png
 K 25
 svn:wc:ra_dav:version-url
 V 199
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_flag@2x.png
-END
-baidu_wallet_yuan_icon@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 204
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_yuan_icon@3x.png
 END
 baidu_wallet_mobile_recharge_input_clear_normal@3x.png
 K 25
@@ -699,17 +699,17 @@ svn:wc:ra_dav:version-url
 V 199
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/icon_default_bank@2x.png
 END
-baidu_wallet_pop_background@2x.png
-K 25
-svn:wc:ra_dav:version-url
-V 209
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_pop_background@2x.png
-END
 baidu_wallet_icon_find_up@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 207
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_icon_find_up@3x.png
+END
+baidu_wallet_pop_background@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_pop_background@2x.png
 END
 baidu_wallet_flashlight_p@3x.png
 K 25
@@ -735,17 +735,17 @@ svn:wc:ra_dav:version-url
 V 202
 /app/ecom/pay/!svn/ver/414428/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/nav_back_highlighted@2x.png
 END
-baidu_wallet_line@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 199
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_line@3x.png
-END
 BaiduWallet_Logo@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 198
 /app/ecom/pay/!svn/ver/410575/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_Logo@3x.png
+END
+baidu_wallet_line@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 199
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_line@3x.png
 END
 BDWallet_card_default_bottom@3x.png
 K 25
@@ -777,6 +777,12 @@ svn:wc:ra_dav:version-url
 V 215
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baiduwallet_closed_default_bottom@3x.png
 END
+wallet_tab_home_data.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 199
+/app/ecom/pay/!svn/ver/415434/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/wallet_tab_home_data.cfg
+END
 BaiduWallet_SpeaRecogBubble@3x.png
 K 25
 svn:wc:ra_dav:version-url
@@ -795,18 +801,6 @@ svn:wc:ra_dav:version-url
 V 210
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_bsc_bottom_logo@3x.png
 END
-wallet_tab_home_data.cfg
-K 25
-svn:wc:ra_dav:version-url
-V 199
-/app/ecom/pay/!svn/ver/415434/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/wallet_tab_home_data.cfg
-END
-baidu_wallet_arrow_homepage_down_highlight@2x.png
-K 25
-svn:wc:ra_dav:version-url
-V 224
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_arrow_homepage_down_highlight@2x.png
-END
 baidu_wallet_transfer_bank_big@3x.png
 K 25
 svn:wc:ra_dav:version-url
@@ -818,6 +812,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 208
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_hasmonney@3x.png
+END
+baidu_wallet_arrow_homepage_down_highlight@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 224
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_arrow_homepage_down_highlight@2x.png
 END
 baidu_wallet_new_bankcard@3x.png
 K 25
@@ -837,12 +837,6 @@ svn:wc:ra_dav:version-url
 V 184
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/icon2.png
 END
-baidu_wallet_clock@2x.png
-K 25
-svn:wc:ra_dav:version-url
-V 200
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_clock@2x.png
-END
 defaultIcon.png
 K 25
 svn:wc:ra_dav:version-url
@@ -854,6 +848,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 188
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/service.plist
+END
+baidu_wallet_clock@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 200
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_clock@2x.png
 END
 baidu_wallet_home_logo@3x.png
 K 25
@@ -891,12 +891,6 @@ svn:wc:ra_dav:version-url
 V 211
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/bdwallet_new_defaultbank_icon@3x.png
 END
-pop_help_cancel_normal@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 204
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/pop_help_cancel_normal@3x.png
-END
 baidu_wallet_new_radio_default@3x.png
 K 25
 svn:wc:ra_dav:version-url
@@ -908,6 +902,18 @@ K 25
 svn:wc:ra_dav:version-url
 V 204
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_shutter_p@3x.png
+END
+pop_help_cancel_normal@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/pop_help_cancel_normal@3x.png
+END
+baidu_wallet_pic_attestation_lose@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_pic_attestation_lose@3x.png
 END
 icon_default_zhanwei@2x.png
 K 25
@@ -927,29 +933,23 @@ svn:wc:ra_dav:version-url
 V 206
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_balance@3x.png
 END
-baidu_wallet_pic_attestation_lose@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 215
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_pic_attestation_lose@3x.png
-END
 baidu_wallet_arrow_homepage_down@2x.png
 K 25
 svn:wc:ra_dav:version-url
 V 214
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_arrow_homepage_down@2x.png
 END
-baidu_wallet_new_result_processing@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 216
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_result_processing@3x.png
-END
 BaiduWallet_Sendmessage@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 205
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_Sendmessage@3x.png
+END
+baidu_wallet_new_result_processing@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_result_processing@3x.png
 END
 baidu_wallet_new_record@3x.png
 K 25
@@ -999,17 +999,17 @@ svn:wc:ra_dav:version-url
 V 211
 /app/ecom/pay/!svn/ver/415434/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_home_header_more@3x.png
 END
-bd_wallet_more_normal@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 203
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/bd_wallet_more_normal@3x.png
-END
 BaiduWallet_Home_NavigationTitleIcon@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 218
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_Home_NavigationTitleIcon@3x.png
+END
+bd_wallet_more_normal@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/bd_wallet_more_normal@3x.png
 END
 baidu_wallet_redenvelopes_bg7@2x.png
 K 25
@@ -1083,6 +1083,12 @@ svn:wc:ra_dav:version-url
 V 206
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_SpeaRecogWin@3x.png
 END
+baidu_wallet_mobile_recharge_contact_highlighted@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 230
+/app/ecom/pay/!svn/ver/411330/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_mobile_recharge_contact_highlighted@3x.png
+END
 baidu_wallet_multiIdentityType_hint@3x.png
 K 25
 svn:wc:ra_dav:version-url
@@ -1100,12 +1106,6 @@ K 25
 svn:wc:ra_dav:version-url
 V 207
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_balance2@3x.png
-END
-baidu_wallet_mobile_recharge_contact_highlighted@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 230
-/app/ecom/pay/!svn/ver/411330/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_mobile_recharge_contact_highlighted@3x.png
 END
 BaiduWallet_SpeaRecogNoise@3x.png
 K 25
@@ -1131,17 +1131,17 @@ svn:wc:ra_dav:version-url
 V 228
 /app/ecom/pay/!svn/ver/414690/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_mobile_yingxiao_close_highlighted@3x.png
 END
-baidu_wallet_mobile_recharge_input_clear_highlighted@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 234
-/app/ecom/pay/!svn/ver/411330/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_mobile_recharge_input_clear_highlighted@3x.png
-END
 bd_wallet_inputbox_default_2x90@2x.png
 K 25
 svn:wc:ra_dav:version-url
 V 213
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/bd_wallet_inputbox_default_2x90@2x.png
+END
+baidu_wallet_mobile_recharge_input_clear_highlighted@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 234
+/app/ecom/pay/!svn/ver/411330/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_mobile_recharge_input_clear_highlighted@3x.png
 END
 bd_wallet_bank_circle_bg.png
 K 25
@@ -1195,7 +1195,7 @@ baidu_wallet_home_navigation_icon_right@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 221
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_home_navigation_icon_right@3x.png
+/app/ecom/pay/!svn/ver/429866/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_home_navigation_icon_right@3x.png
 END
 baidu_wallet_home_privacy_open@3x.png
 K 25
@@ -1215,17 +1215,17 @@ svn:wc:ra_dav:version-url
 V 216
 /app/ecom/pay/!svn/ver/412536/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_mobile_yingxiao_close@3x.png
 END
-BaiduWallet_Home_DefaultBackgroudImage@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 220
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_Home_DefaultBackgroudImage@3x.png
-END
 baidu_wallet_progress_logo@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 208
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_progress_logo@3x.png
+END
+baidu_wallet_logo_default_bottom@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_logo_default_bottom@3x.png
 END
 baidu_wallet_picture_back_p@3x.png
 K 25
@@ -1233,11 +1233,11 @@ svn:wc:ra_dav:version-url
 V 209
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_picture_back_p@3x.png
 END
-baidu_wallet_logo_default_bottom@3x.png
+BaiduWallet_Home_DefaultBackgroudImage@3x.png
 K 25
 svn:wc:ra_dav:version-url
-V 214
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_logo_default_bottom@3x.png
+V 220
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_Home_DefaultBackgroudImage@3x.png
 END
 baidu_wallet_shutter_n@3x.png
 K 25
@@ -1257,11 +1257,11 @@ svn:wc:ra_dav:version-url
 V 203
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_more@3x.png
 END
-icon_refresh@3x.png
+baidu_wallet_securityKeyboard_delete_highlighted@3x.png
 K 25
 svn:wc:ra_dav:version-url
-V 194
-/app/ecom/pay/!svn/ver/415841/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/icon_refresh@3x.png
+V 230
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_securityKeyboard_delete_highlighted@3x.png
 END
 newService.cfg
 K 25
@@ -1275,17 +1275,11 @@ svn:wc:ra_dav:version-url
 V 205
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_trade_icon@2x.png
 END
-baidu_wallet_securityKeyboard_delete_highlighted@3x.png
+icon_refresh@3x.png
 K 25
 svn:wc:ra_dav:version-url
-V 230
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_securityKeyboard_delete_highlighted@3x.png
-END
-baidu_wallet_csc_pressed@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 206
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_csc_pressed@3x.png
+V 194
+/app/ecom/pay/!svn/ver/415841/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/icon_refresh@3x.png
 END
 baidu_wallet_scan_zoom_sub@3x.png
 K 25
@@ -1293,17 +1287,23 @@ svn:wc:ra_dav:version-url
 V 208
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_scan_zoom_sub@3x.png
 END
-baidu_wallet_new_box_checked@3x.png
+baidu_wallet_csc_pressed@3x.png
 K 25
 svn:wc:ra_dav:version-url
-V 210
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_box_checked@3x.png
+V 206
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_csc_pressed@3x.png
 END
 baidu_wallet_close_default_bottom@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 215
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_close_default_bottom@3x.png
+END
+baidu_wallet_new_box_checked@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_box_checked@3x.png
 END
 baidu_wallet_flashlight_close_n@3x.png
 K 25
@@ -1329,17 +1329,17 @@ svn:wc:ra_dav:version-url
 V 202
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_shutter@3x.png
 END
-baidu_wallet_new_check_default@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 212
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_check_default@3x.png
-END
 bd_wallet_icon_default_info@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 209
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/bd_wallet_icon_default_info@3x.png
+END
+baidu_wallet_new_check_default@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_check_default@3x.png
 END
 baidu_wallet_icon_clear@2x.png
 K 25
@@ -1347,17 +1347,17 @@ svn:wc:ra_dav:version-url
 V 205
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_icon_clear@2x.png
 END
-BaiduWallet_SpeaRecogRecordloading@3x.png
-K 25
-svn:wc:ra_dav:version-url
-V 216
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_SpeaRecogRecordloading@3x.png
-END
 coupon_icon_blank@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 199
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/coupon_icon_blank@3x.png
+END
+BaiduWallet_SpeaRecogRecordloading@3x.png
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/BaiduWallet_SpeaRecogRecordloading@3x.png
 END
 bg_titlebar_640x128@2x.png
 K 25
@@ -1383,15 +1383,15 @@ svn:wc:ra_dav:version-url
 V 208
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_tongxunlu@2x.png
 END
-baidu_wallet_privacy_btn_cross@2x.png
-K 25
-svn:wc:ra_dav:version-url
-V 212
-/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_privacy_btn_cross@2x.png
-END
 baidu_wallet_new_icon_bank_default@3x.png
 K 25
 svn:wc:ra_dav:version-url
 V 216
 /app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_new_icon_bank_default@3x.png
+END
+baidu_wallet_privacy_btn_cross@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/app/ecom/pay/!svn/ver/408601/branches/mobile/wallet-sdk-ios/Wallet_Aileen_5.8_BRANCH/wallet-sdk-ios-aileen/products/BaiduWallet-APP/BaiduWallet-APP/BaiduWallet_Portal.bundle/baidu_wallet_privacy_btn_cross@2x.png
 END
