@@ -24,7 +24,7 @@
  *
  *  @param merchantID merchatID
  */
-+ (void) setMerchantID:(NSString *)merchantID;
++ (void)setMerchantID:(NSString *)merchantID;
 
 
 /**
@@ -34,7 +34,15 @@
  *  @param quantity  数量
  *  @param orderNo   订单
  */
-+ (void) setProductIdentifier:(NSString *)productID andQuantity:(NSInteger)quantity orderNo:(NSString *)orderNo;
++ (void)setProductIdentifier:(NSString *)productID andQuantity:(NSInteger)quantity orderNo:(NSString *)orderNo;
+
+
+/**
+ 是否隐藏loading页面
+
+ @param isHidden 隐藏
+ */
++ (void)setLoadingViewHidden:(BOOL)isHidden;
 
 
 
@@ -43,7 +51,7 @@
  *
  *  @param isHidden 隐藏
  */
-+ (void) setBeforeReturnLoadingHidden:(BOOL)isHidden;
++ (void)setBeforeReturnLoadingHidden:(BOOL)isHidden;
 
 
 

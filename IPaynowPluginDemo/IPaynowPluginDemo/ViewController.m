@@ -200,14 +200,14 @@
     _scrollView = scrollView;
     [self.view addSubview:_scrollView];
     
-    [self addButtonWithY:22 title:@"聚合支付" method:@selector(pay)];
-    [self addButtonWithY:65 title:@"银联支付" method:@selector(unionPay)];
-    [self addButtonWithY:108 title:@"支付宝支付" method:@selector(alixPay)];
-    [self addButtonWithY:151 title:@"微信支付" method:@selector(weixinPay)];
-    [self addButtonWithY:194 title:@"ApplePay" method:@selector(applePay)];
-    [self addButtonWithY:237 title:@"手Q支付" method:@selector(qqPay)];
-    [self addButtonWithY:280 title:@"应用内支付" method:@selector(inApplePurchase)];
-    [self addButtonWithY:323 title:@"百度支付" method:@selector(baiduPay)];
+    //[self addButtonWithY:22 title:@"聚合支付" method:@selector(pay)];
+    [self addButtonWithY:22 title:@"银联支付" method:@selector(unionPay)];
+    [self addButtonWithY:65 title:@"支付宝支付" method:@selector(alixPay)];
+    [self addButtonWithY:108 title:@"微信支付" method:@selector(weixinPay)];
+    [self addButtonWithY:151 title:@"ApplePay" method:@selector(applePay)];
+    [self addButtonWithY:194 title:@"手Q支付" method:@selector(qqPay)];
+    [self addButtonWithY:237 title:@"应用内支付" method:@selector(inApplePurchase)];
+    [self addButtonWithY:280 title:@"百度支付" method:@selector(baiduPay)];
     
 }
 

@@ -4,7 +4,7 @@
 <array>
         <dict>
                 <key>BDWalletSDKVersion</key>
-                <string>5.8.0.0</string>
+                <string>5.8.2.0</string>
                 <key>BDWalletSDKHasHomepage</key>
                 <string>3</string>
                 <key>BMW_AppId</key>
