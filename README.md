@@ -5,7 +5,7 @@ iOS SDK要求iOS6.0及以上
 ### 自动接入(CocoaPod方式)
 ####1.添加Podfile文件
 ```
-pod ‘ipaynowplugin’,'~> 2.0.2'
+pod ‘ipaynowplugin’,'~> 2.0.3'
 ```
 默认支持QQ钱包、微信H5渠道，也可以根据自己的需求选择渠道：
 
@@ -22,11 +22,11 @@ pod ‘ipaynowplugin’,'~> 2.0.2'
 接入方式如下：
 
 ```
-pod 'ipaynowplugin/Alipay’,’~> 2.0.2’
-pod 'ipaynowplugin/Weixin’,’~> 2.0.2’
-pod 'ipaynowplugin/Unionpay’,’~> 2.0.2’
-pod 'ipaynowplugin/BaiduWallet’,’~> 2.0.2’
-pod 'ipaynowplugin/ApplePay’,’~> 2.0.2’
+pod 'ipaynowplugin/Alipay’,’~> 2.0.3’
+pod 'ipaynowplugin/Weixin’,’~> 2.0.3’
+pod 'ipaynowplugin/Unionpay’,’~> 2.0.3’
+pod 'ipaynowplugin/BaiduWallet’,’~> 2.0.3’
+pod 'ipaynowplugin/ApplePay’,’~> 2.0.3’
 ```
 
 **注意：若商户支付宝使用的是独立商户号模式(直接使用商户从支付宝处申请的APP
