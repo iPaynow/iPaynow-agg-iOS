@@ -42,6 +42,8 @@
     UITextField *_txtOrderStartTime;
     UITextField *_notifyUrl;
     UITextField *_txtMhtPreserved;
+    UITextField *_mhtSubAppId;
+    UISwitch *_onOff;
     UIScrollView *_scrollView;
 }
 
@@ -109,6 +111,7 @@
     preSign.mhtReserved = _txtMhtPreserved.text;
     preSign.consumerId = @"IPN00001";
     preSign.consumerName = @"IPaynow";
+    preSign.mhtSubAppId  = _mhtSubAppId.text;
     
     if (payChannelType != nil) {
         preSign.payChannelType = payChannelType;
@@ -176,6 +179,8 @@
     [self addLabelWithY:285 text:@"订单开始时间:" andFontSize:13];
     [self addLabelWithY:323 text:@"后台通知地址:" andFontSize:13];
     [self addLabelWithY:361 text:@"商户保留域:" andFontSize:13];
+    [self addLabelWithY:399 text:@"子应用ID:" andFontSize:13];
+
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyyMMddHHmmss"];
@@ -192,9 +197,11 @@
     _txtOrderStartTime = [self addTextFieldWithY:281 text:[dateFormatter stringFromDate:[NSDate date]] keyboardType:UIKeyboardTypeDecimalPad];
     _notifyUrl = [self addTextFieldWithY:319 text:@"http://localhost:10802/" keyboardType:UIKeyboardTypeDefault];
     _txtMhtPreserved = [self addTextFieldWithY:357 text:@"mhtpreserved" keyboardType:UIKeyboardTypeDefault];
+    _mhtSubAppId = [self addTextFieldWithY:395 text:@"" keyboardType:UIKeyboardTypeDefault];
     
     
-    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(20 * COEFFICIENT, 420, 280 * COEFFICIENT, 315 * COEFFICIENT)];
+    
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(20 * COEFFICIENT, 440, 280 * COEFFICIENT, 315 * COEFFICIENT)];
     scrollView.contentSize = CGSizeMake(277,520);
     scrollView.showsVerticalScrollIndicator = NO;
     _scrollView = scrollView;

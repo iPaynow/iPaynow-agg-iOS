@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC3554D11E27933C0052F880 /* libIPaynowPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3554D01E27933C0052F880 /* libIPaynowPlugin.a */; };
 		AC38F4261E14ECC300AA9F25 /* libUPAPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC38F4251E14ECC300AA9F25 /* libUPAPayPlugin.a */; };
 		AC38F4281E14ECD900AA9F25 /* BaiduWallet_Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC38F4271E14ECD900AA9F25 /* BaiduWallet_Portal.framework */; };
 		AC38F4361E14EFB500AA9F25 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC38F4331E14EFB500AA9F25 /* libWeChatSDK.a */; };
 		AC38F4431E14F8A800AA9F25 /* BaiduWallet_Portal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC38F4421E14F8A800AA9F25 /* BaiduWallet_Portal.bundle */; };
+		AC48E9C31E5ED351002A277A /* libIPaynowPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48E9C21E5ED351002A277A /* libIPaynowPlugin.a */; };
 		AC8493D41DF186620061FAE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8493D31DF186620061FAE7 /* main.m */; };
 		AC8493D71DF186620061FAE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8493D61DF186620061FAE7 /* AppDelegate.m */; };
 		AC8493DF1DF186620061FAE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8493DE1DF186620061FAE7 /* Assets.xcassets */; };
 		AC8493E21DF186620061FAE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8493E01DF186620061FAE7 /* LaunchScreen.storyboard */; };
 		AC8494C71DF187CB0061FAE7 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC8493ED1DF187CB0061FAE7 /* AlipaySDK.bundle */; };
 		AC8494C81DF187CB0061FAE7 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8493EE1DF187CB0061FAE7 /* AlipaySDK.framework */; };
-		AC8495501DF187CB0061FAE7 /* ipaynow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC8494B31DF187CB0061FAE7 /* ipaynow.bundle */; };
 		AC8495541DF187CB0061FAE7 /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8494C11DF187CB0061FAE7 /* libPaymentControl.a */; };
 		AC8495671DF188E80061FAE7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8495561DF188E80061FAE7 /* Accelerate.framework */; };
 		AC8495681DF188E80061FAE7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8495571DF188E80061FAE7 /* AddressBook.framework */; };
@@ -181,11 +180,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AC3554D01E27933C0052F880 /* libIPaynowPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIPaynowPlugin.a; sourceTree = "<group>"; };
-		AC38F41F1E14ECAA00AA9F25 /* IpaynowPluginApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpaynowPluginApi.h; sourceTree = "<group>"; };
-		AC38F4201E14ECAA00AA9F25 /* IpaynowPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpaynowPluginDelegate.h; sourceTree = "<group>"; };
 		AC38F4211E14ECAA00AA9F25 /* IPNDESUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPNDESUtil.h; sourceTree = "<group>"; };
-		AC38F4221E14ECAA00AA9F25 /* IPNPreSignMessageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPNPreSignMessageUtil.h; sourceTree = "<group>"; };
 		AC38F4231E14ECC300AA9F25 /* UPAPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPlugin.h; sourceTree = "<group>"; };
 		AC38F4241E14ECC300AA9F25 /* UPAPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPluginDelegate.h; sourceTree = "<group>"; };
 		AC38F4251E14ECC300AA9F25 /* libUPAPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPAPayPlugin.a; sourceTree = "<group>"; };
@@ -194,6 +189,10 @@
 		AC38F4341E14EFB500AA9F25 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		AC38F4351E14EFB500AA9F25 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		AC38F4421E14F8A800AA9F25 /* BaiduWallet_Portal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BaiduWallet_Portal.bundle; sourceTree = "<group>"; };
+		AC48E9BF1E5ED342002A277A /* IpaynowPluginApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpaynowPluginApi.h; sourceTree = "<group>"; };
+		AC48E9C01E5ED342002A277A /* IpaynowPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpaynowPluginDelegate.h; sourceTree = "<group>"; };
+		AC48E9C11E5ED342002A277A /* IPNPreSignMessageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPNPreSignMessageUtil.h; sourceTree = "<group>"; };
+		AC48E9C21E5ED351002A277A /* libIPaynowPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIPaynowPlugin.a; sourceTree = "<group>"; };
 		AC8493CF1DF186620061FAE7 /* IPaynowPluginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPaynowPluginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8493D31DF186620061FAE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC8493D51DF186620061FAE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -203,7 +202,6 @@
 		AC8493E31DF186620061FAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC8493ED1DF187CB0061FAE7 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		AC8493EE1DF187CB0061FAE7 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		AC8494B31DF187CB0061FAE7 /* ipaynow.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ipaynow.bundle; sourceTree = "<group>"; };
 		AC8494C11DF187CB0061FAE7 /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
 		AC8494C21DF187CB0061FAE7 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
 		AC8495561DF188E80061FAE7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -422,7 +420,7 @@
 			files = (
 				ACA33B331DF18D3100E727A5 /* MessageUI.framework in Frameworks */,
 				AC8495851DF18A050061FAE7 /* Security.framework in Frameworks */,
-				AC3554D11E27933C0052F880 /* libIPaynowPlugin.a in Frameworks */,
+				AC48E9C31E5ED351002A277A /* libIPaynowPlugin.a in Frameworks */,
 				AC8495831DF189AD0061FAE7 /* MobileCoreServices.framework in Frameworks */,
 				AC84957F1DF1897E0061FAE7 /* libz.tbd in Frameworks */,
 				AC84957D1DF189770061FAE7 /* libsqlite3.tbd in Frameworks */,
@@ -546,12 +544,11 @@
 		AC8494B21DF187CB0061FAE7 /* IpaynowPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				AC38F41F1E14ECAA00AA9F25 /* IpaynowPluginApi.h */,
-				AC38F4201E14ECAA00AA9F25 /* IpaynowPluginDelegate.h */,
 				AC38F4211E14ECAA00AA9F25 /* IPNDESUtil.h */,
-				AC38F4221E14ECAA00AA9F25 /* IPNPreSignMessageUtil.h */,
-				AC3554D01E27933C0052F880 /* libIPaynowPlugin.a */,
-				AC8494B31DF187CB0061FAE7 /* ipaynow.bundle */,
+				AC48E9BF1E5ED342002A277A /* IpaynowPluginApi.h */,
+				AC48E9C01E5ED342002A277A /* IpaynowPluginDelegate.h */,
+				AC48E9C11E5ED342002A277A /* IPNPreSignMessageUtil.h */,
+				AC48E9C21E5ED351002A277A /* libIPaynowPlugin.a */,
 			);
 			path = IpaynowPlugin;
 			sourceTree = "<group>";
@@ -940,7 +937,6 @@
 			files = (
 				ACA33C061DF18DCF00E727A5 /* sapi_avatar_recommend_2@2x.png in Resources */,
 				ACA33C0F1DF18DCF00E727A5 /* checkbox@2x.png in Resources */,
-				AC8495501DF187CB0061FAE7 /* ipaynow.bundle in Resources */,
 				ACA33C161DF18DCF00E727A5 /* file_tital_back_but.png in Resources */,
 				ACA33C2C1DF18DD000E727A5 /* loading_06.png in Resources */,
 				ACA33C371DF18DD000E727A5 /* loading_11@2x.png in Resources */,
