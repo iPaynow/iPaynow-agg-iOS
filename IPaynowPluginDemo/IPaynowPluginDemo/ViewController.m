@@ -180,7 +180,7 @@
     [self addLabelWithY:323 text:@"后台通知地址:" andFontSize:13];
     [self addLabelWithY:361 text:@"商户保留域:" andFontSize:13];
     [self addLabelWithY:399 text:@"子应用ID:" andFontSize:13];
-
+    [self addLabelWithY:437 text:@"微众开关:" andFontSize:13];
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyyMMddHHmmss"];
@@ -199,10 +199,13 @@
     _txtMhtPreserved = [self addTextFieldWithY:357 text:@"mhtpreserved" keyboardType:UIKeyboardTypeDefault];
     _mhtSubAppId = [self addTextFieldWithY:395 text:@"" keyboardType:UIKeyboardTypeDefault];
     
+    // 微众开关
+    _onOff = [[UISwitch alloc] initWithFrame:CGRectMake(228 * COEFFICIENT, 433, 100, 80)];
+    [_onOff addTarget:self action:@selector(changeAccount) forControlEvents:UIControlEventValueChanged];
+    [self.view addSubview:_onOff];
     
-    
-    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(20 * COEFFICIENT, 440, 280 * COEFFICIENT, 315 * COEFFICIENT)];
-    scrollView.contentSize = CGSizeMake(277,520);
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(20 * COEFFICIENT, 470, 280 * COEFFICIENT, 315 * COEFFICIENT)];
+    scrollView.contentSize = CGSizeMake(277,570);
     scrollView.showsVerticalScrollIndicator = NO;
     _scrollView = scrollView;
     [self.view addSubview:_scrollView];
@@ -216,6 +219,18 @@
     [self addButtonWithY:237 title:@"应用内支付" method:@selector(inApplePurchase)];
     [self addButtonWithY:280 title:@"百度支付" method:@selector(baiduPay)];
     
+}
+
+- (void)changeAccount {
+    if (_onOff.on == false) {
+        _appId.text = APPID;
+        _appKey.text = APPKEY;
+        _mhtSubAppId.text = @"";
+    } else if (_onOff.on == true) {
+        _appId.text = @"148730106234586";
+        _appKey.text = @"UoBF7aoHiXwkq7gY9tBv0MhRcQEkJ6To";
+        _mhtSubAppId.text = @"wx79c7ea4c0f453b2c";
+    }
 }
 
 #pragma mark - 支付发起AlertView

@@ -2,14 +2,14 @@
 //  AlipaySDK.h
 //  AlipaySDK
 //
-//  Created by 方彬 on 14-4-28.
-//  Copyright (c) 2014年 Alipay. All rights reserved.
+//  Created by alipay on 16-12-12.
+//  Copyright (c) 2016年 Alipay. All rights reserved.
 //
 
 
 ////////////////////////////////////////////////////////
-////////////////version:2.1  motify:2014.12.24//////////
-///////////////////Merry Christmas=。=//////////////////
+///////////////// 支付宝标准版本支付SDK ///////////////////
+/////////// version:15.3.3  motify:2017.03.07 ///////////
 ////////////////////////////////////////////////////////
 
 
@@ -79,14 +79,14 @@ typedef void(^CompletionBlock)(NSDictionary *resultDic);
 - (BOOL)isLogined;
 
 /**
- *  当前版本号
+ *  获取当前版本号
  *
  *  @return 当前版本字符串
  */
 - (NSString *)currentVersion;
 
 /**
- *  当前版本号
+ *  获取当前tid相关信息
  *
  *  @return tid相关信息
  */
@@ -105,7 +105,7 @@ typedef void(^CompletionBlock)(NSDictionary *resultDic);
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- *  url order 获取接口
+ *  从h5链接中获取订单串接口
  *
  *  @param urlStr     拦截的 url string
  *
@@ -115,7 +115,7 @@ typedef void(^CompletionBlock)(NSDictionary *resultDic);
 
 
 /**
- *  url支付接口
+ *  h5链接获取到的订单串支付接口
  *
  *  @param orderStr       订单信息
  *  @param schemeStr      调用支付的app注册在info.plist中的scheme
@@ -148,6 +148,7 @@ typedef void(^CompletionBlock)(NSDictionary *resultDic);
  */
 - (void)processAuthResult:(NSURL *)resultUrl
           standbyCallback:(CompletionBlock)completionBlock;
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////授权2.0//////////////////////////////////////////////////////////////
