@@ -82,9 +82,7 @@
     [self payByType:@"60"];
 }
 
-- (void)baiduPay{
-    [self payByType:@"50"];
-}
+
 
 - (void)payByType:(NSString *)payChannelType{
     NSInteger amt = [_txtAmt.text integerValue];
@@ -217,7 +215,7 @@
     [self addButtonWithY:151 title:@"ApplePay" method:@selector(applePay)];
     [self addButtonWithY:194 title:@"手Q支付" method:@selector(qqPay)];
     [self addButtonWithY:237 title:@"应用内支付" method:@selector(inApplePurchase)];
-    [self addButtonWithY:280 title:@"百度支付" method:@selector(baiduPay)];
+
     
 }
 
