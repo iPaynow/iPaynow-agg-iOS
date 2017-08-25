@@ -94,24 +94,7 @@ libPaymentControl.a
 UPPaymentControl.h
 ```
 
-##### 4.百度钱包
 
-添加百度钱包插件包及其依赖三方库(开通百度钱包渠道可选):
-
-```
-BaiduWalletSDKBundl.bundle
-BDwalletSDKMainManager.h
-libBaiduWalletSDK.a
-```
-百度钱包所依赖的第三方库统一在`Library`文件夹中，需要添加的库有：
-
-```
-ASIHttpRequest
-JSONKit
-TouchJSON
-Reachability
-SDWebImage
-```
 添加三方库文件时，需要根据当前`ARC`项目对非`ARC`的第三方文件设置特定标志，在`Build Phases`对这些文件添加`-fno-objc-arc`。
 
 ##### 5.Apple Pay
