@@ -14,8 +14,8 @@
 
 #define kMerchantID @"merchant.cn.ipaynow.applepay"
 #define COEFFICIENT   self.view.frame.size.width / 320
-#define APPID  @"1408709961320306"
-#define APPKEY @"0nqIDgkOnNBD6qoqO5U68RO1fNqiaisg"
+#define APPID  @""
+#define APPKEY @""
 
 #define kBtnFirstTitle    @"获取订单，开始支付"
 #define kWaiting          @"正在获取订单,请稍候..."
@@ -45,6 +45,8 @@
     UITextField *_mhtSubAppId;
     UISwitch *_onOff;
     UIScrollView *_scrollView;
+    UITextField *_mhtSubAppID;
+    UISwitch * _creditCard;
 }
 
 - (void)viewDidLoad {
@@ -54,12 +56,8 @@
     [self createUI];
 }
 
-- (void)pay{
-    [self payByType:nil];
-}
-
 - (void)unionPay{
-    [self payByType:@"11"];
+    [self payByType:@"20"];
 }
 
 - (void)alixPay{
@@ -68,22 +66,6 @@
 
 - (void)weixinPay{
     [self payByType:@"13"];
-}
-
-- (void)applePay{
-    [self payByType:@"61"];
-}
-
-- (void)qqPay{
-    [self payByType:@"25"];
-}
-
-- (void)inApplePurchase{
-    [self payByType:@"60"];
-}
-
-- (void)baiduPay{
-    [self payByType:@"50"];
 }
 
 - (void)payByType:(NSString *)payChannelType{
@@ -98,47 +80,53 @@
     // 订单拼接
     IPNPreSignMessageUtil *preSign = [[IPNPreSignMessageUtil alloc] init];
     preSign.appId = _appId.text;
-    preSign.mhtOrderNo = [formatter stringFromDate:[NSDate date]];
+    preSign.mhtOrderNo = _txtOrderStartTime.text;
     preSign.mhtOrderName = _txtOrderNo.text;
     preSign.mhtOrderType = @"01";
     preSign.mhtCurrencyType = @"156";
     preSign.mhtOrderAmt = _txtAmt.text;
     preSign.mhtOrderDetail = _txtOrderDetail.text;
     preSign.mhtOrderStartTime = _txtOrderStartTime.text;
-    preSign.notifyUrl = @"http://localhost:10802/";
+    preSign.notifyUrl = _notifyUrl.text;
     preSign.mhtCharset = @"UTF-8";
     preSign.mhtOrderTimeOut = @"3600";
     preSign.mhtReserved = _txtMhtPreserved.text;
-    preSign.consumerId = @"IPN00001";
+    preSign.consumerId = @"IPN000012";
     preSign.consumerName = @"IPaynow";
-    preSign.mhtSubAppId  = _mhtSubAppId.text;
+    preSign.mhtSubAppId = _mhtSubAppID.text;
+    
+    preSign.mhtSignType = @"MD5";
+    preSign.funcode = @"WP001";
+    preSign.deviceType = @"01";
+    preSign.version = @"1.0.0";
+    preSign.mhtLimitPay = _creditCard.isOn ? @"1":@"0";
     
     if (payChannelType != nil) {
         preSign.payChannelType = payChannelType;
     }
     
-    _presignStr = [preSign generatePresignMessage];
-   
-    
-    if (_presignStr == nil) {
-        [self showAlertMessage:@"缺少必填字段"];
-        return;
-    }
-    
     _orderNo = preSign.mhtOrderNo;
-    [self payByLocalSign];
+    
+//      订单签名该由服务器完成，此处本地签名仅作为展示使用。
+    _presignStr = [preSign generatePresignMessage];
+
+    NSString *md5keyStr = [IPNDESUtil md5Encrypt:_appKey.text];
+    NSString * md5=@"";
+    md5 = [_presignStr stringByAppendingFormat:@"&%@",md5keyStr];
+    md5 = [IPNDESUtil md5Encrypt:md5];
+    
+    NSString *payData = [_presignStr stringByAppendingFormat:@"&mhtSignature=%@",md5];
+    
+    
+    [self payByLocalSign:payData];
 }
 
-/**
- *   订单签名该由服务器完成，此处本地签名仅作为展示使用。
- */
-- (void)payByLocalSign{
-    NSString *md5 = [IPNDESUtil md5Encrypt:_appKey.text];
-    md5 = [_presignStr stringByAppendingFormat:@"&%@",md5];
-    md5 = [IPNDESUtil md5Encrypt:md5];
-    md5 = [NSString stringWithFormat:@"mhtSignType=MD5&mhtSignature=%@",md5];
-    NSString *payData = [_presignStr stringByAppendingFormat:@"&%@",md5];
-    [IpaynowPluginApi pay:payData AndScheme:@"IPaynowPluginSDK" viewController:self delegate:self];
+
+//发起支付
+- (void)payByLocalSign:(NSString *)str{
+ 
+  
+    [IpaynowPluginApi pay:str AndScheme:@"IPaynowPlugindevelope" viewController:self delegate:self];
 }
 
 #pragma mark - SDK的回调方法
@@ -170,7 +158,7 @@
 
 #pragma mark - 界面搭建
 - (void)createUI{
-    [self.navigationItem setTitle:@"插件测试Demo"];
+    [self.navigationItem setTitle:@"聚合SDK Demo"];
     [self addLabelWithY:95 text:@"应用ID:" andFontSize:13];
     [self addLabelWithY:133 text:@"应用秘钥:" andFontSize:13];
     [self addLabelWithY:171 text:@"订单名称:" andFontSize:13];
@@ -180,8 +168,7 @@
     [self addLabelWithY:323 text:@"后台通知地址:" andFontSize:13];
     [self addLabelWithY:361 text:@"商户保留域:" andFontSize:13];
     [self addLabelWithY:399 text:@"子应用ID:" andFontSize:13];
-    [self addLabelWithY:437 text:@"微众开关:" andFontSize:13];
-    
+    [self addLabelWithY:450 text:@"信用卡开关:" andFontSize:13];
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyyMMddHHmmss"];
     //appId: 1477451129640550
@@ -199,39 +186,24 @@
     _txtMhtPreserved = [self addTextFieldWithY:357 text:@"mhtpreserved" keyboardType:UIKeyboardTypeDefault];
     _mhtSubAppId = [self addTextFieldWithY:395 text:@"" keyboardType:UIKeyboardTypeDefault];
     
-    // 微众开关
-    _onOff = [[UISwitch alloc] initWithFrame:CGRectMake(228 * COEFFICIENT, 433, 100, 80)];
-    [_onOff addTarget:self action:@selector(changeAccount) forControlEvents:UIControlEventValueChanged];
-    [self.view addSubview:_onOff];
+    _creditCard = [[UISwitch alloc] initWithFrame:CGRectMake(198 * COEFFICIENT, 445, 80, 40)];
+    [self.view addSubview:_creditCard];
+    _creditCard.on = YES;
     
-    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(20 * COEFFICIENT, 470, 280 * COEFFICIENT, 315 * COEFFICIENT)];
-    scrollView.contentSize = CGSizeMake(277,570);
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(20 * COEFFICIENT, 500, 280 * COEFFICIENT, 315 * COEFFICIENT)];
+    scrollView.contentSize = CGSizeMake(277,370);
     scrollView.showsVerticalScrollIndicator = NO;
     _scrollView = scrollView;
     [self.view addSubview:_scrollView];
     
-    //[self addButtonWithY:22 title:@"聚合支付" method:@selector(pay)];
     [self addButtonWithY:22 title:@"银联支付" method:@selector(unionPay)];
     [self addButtonWithY:65 title:@"支付宝支付" method:@selector(alixPay)];
     [self addButtonWithY:108 title:@"微信支付" method:@selector(weixinPay)];
-    [self addButtonWithY:151 title:@"ApplePay" method:@selector(applePay)];
-    [self addButtonWithY:194 title:@"手Q支付" method:@selector(qqPay)];
-    [self addButtonWithY:237 title:@"应用内支付" method:@selector(inApplePurchase)];
-    [self addButtonWithY:280 title:@"百度支付" method:@selector(baiduPay)];
+
     
 }
 
-- (void)changeAccount {
-    if (_onOff.on == false) {
-        _appId.text = APPID;
-        _appKey.text = APPKEY;
-        _mhtSubAppId.text = @"";
-    } else if (_onOff.on == true) {
-        _appId.text = @"148730106234586";
-        _appKey.text = @"UoBF7aoHiXwkq7gY9tBv0MhRcQEkJ6To";
-        _mhtSubAppId.text = @"wx79c7ea4c0f453b2c";
-    }
-}
+
 
 #pragma mark - 支付发起AlertView
 
