@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |core|
     core.source_files = "lib/*.h"
     core.public_header_files = "lib/*.h"
-    core.vendored_libraries = "lib//iphones+iphonesimulator/*.a"
+    core.vendored_libraries = "lib/iphones+iphonesimulator/*.a"
     core.frameworks = "CoreGraphics", "CoreTelephony","QuartzCore","SystemConfiguration","Security","Foundation","UIKit"
     core.ios.library = 'z', 'sqlite3.0','c++', 'stdc++'
     core.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
