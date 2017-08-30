@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    Help developer to quickly intergrate variety of payment methods
                    DESC
   s.homepage     = "http://www.ipaynow.cn"
-  s.license      = "MIT"
+  s.license= { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Chuck" => "lipengchang@ipaynow.cn" }
   s.platform     = :ios, '6.0'
   s.source       = { :git => "https://github.com/iPaynow/iPaynow-agg-iOS.git", :tag => s.version }
