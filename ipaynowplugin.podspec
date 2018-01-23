@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   
   s.name         = "ipaynowplugin"
-  s.version      = "3.0.0"
+  s.version      = "3.0.3"
   s.summary      = "ipaynowplugin SDK"
   s.description  = <<-DESC
                    Help developer to quickly intergrate variety of payment methods
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://www.ipaynow.cn"
   s.license= { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Chuck" => "lipengchang@ipaynow.cn" }
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '7.0'
   s.source       = { :git => "https://github.com/iPaynow/iPaynow-agg-iOS.git", :tag => s.version }
   s.default_subspec = 'Core'
   s.requires_arc = true

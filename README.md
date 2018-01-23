@@ -1,11 +1,11 @@
 # iPaynow-iOS\_SDK:聚合支付
 ## 版本要求
-iOS SDK要求iOS6.0及以上
+iOS SDK要求iOS7.0及以上
 ## 接入方法
 ### 自动接入(CocoaPod方式)
 #### 1.添加Podfile文件
 ```
-pod ‘ipaynowplugin’,'~> 3.0.0'
+pod ‘ipaynowplugin’,'~> 3.0.3'
 ```
 默认支持微信H5渠道，其它渠道根据自己的需求再接入渠道SDK：
 
@@ -18,9 +18,9 @@ pod ‘ipaynowplugin’,'~> 3.0.0'
 渠道SDK接入方式如下：
 
 ```
-pod 'ipaynowplugin/Alipay’,’~> 3.0.0’
-pod 'ipaynowplugin/Weixin’,’~> 3.0.0’
-pod 'ipaynowplugin/Unionpay’,’~> 3.0.0’
+pod 'ipaynowplugin/Alipay’,’~> 3.0.3’
+pod 'ipaynowplugin/Weixin’,’~> 3.0.3’
+pod 'ipaynowplugin/Unionpay’,’~> 3.0.3’
 ```
 
 **注意：若商户支付宝使用的是独立商户号模式(直接使用商户从支付宝处申请的APP
