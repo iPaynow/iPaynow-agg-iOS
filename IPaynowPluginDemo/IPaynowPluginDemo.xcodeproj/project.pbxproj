@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC5B69271F502B03005CEF67 /* libIPaynowPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5B69261F502B03005CEF67 /* libIPaynowPlugin.a */; };
+		AC4526C220174908001BCDF1 /* libIPaynowPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4526C120174907001BCDF1 /* libIPaynowPlugin.a */; };
 		AC8493D41DF186620061FAE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8493D31DF186620061FAE7 /* main.m */; };
 		AC8493D71DF186620061FAE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8493D61DF186620061FAE7 /* AppDelegate.m */; };
 		AC8493DF1DF186620061FAE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8493DE1DF186620061FAE7 /* Assets.xcassets */; };
@@ -45,7 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AC5B69261F502B03005CEF67 /* libIPaynowPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIPaynowPlugin.a; sourceTree = "<group>"; };
+		AC4526C120174907001BCDF1 /* libIPaynowPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIPaynowPlugin.a; sourceTree = "<group>"; };
 		AC8493CF1DF186620061FAE7 /* IPaynowPluginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPaynowPluginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8493D31DF186620061FAE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC8493D51DF186620061FAE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			files = (
 				ACA33B331DF18D3100E727A5 /* MessageUI.framework in Frameworks */,
 				AC8495851DF18A050061FAE7 /* Security.framework in Frameworks */,
-				AC5B69271F502B03005CEF67 /* libIPaynowPlugin.a in Frameworks */,
+				AC4526C220174908001BCDF1 /* libIPaynowPlugin.a in Frameworks */,
 				AC8495831DF189AD0061FAE7 /* MobileCoreServices.framework in Frameworks */,
 				AC84957F1DF1897E0061FAE7 /* libz.tbd in Frameworks */,
 				AC84957D1DF189770061FAE7 /* libsqlite3.tbd in Frameworks */,
@@ -223,7 +223,7 @@
 		AC8494B21DF187CB0061FAE7 /* IpaynowPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				AC5B69261F502B03005CEF67 /* libIPaynowPlugin.a */,
+				AC4526C120174907001BCDF1 /* libIPaynowPlugin.a */,
 				AC87F24C1F4AE0EB004ED353 /* IpaynowPluginApi.h */,
 				AC87F24D1F4AE0EB004ED353 /* IpaynowPluginDelegate.h */,
 				AC87F24E1F4AE0EB004ED353 /* IPNDESUtil.h */,

@@ -12,7 +12,7 @@
 #import "IPNDESUtil.h"
 #import "IpaynowPluginApi.h"
 
-#define kMerchantID @"merchant.cn.ipaynow.applepay"
+#define kMerchantID @"merchant.ipaynow.v3"
 #define COEFFICIENT   self.view.frame.size.width / 320
 #define APPID  @""
 #define APPKEY @""
